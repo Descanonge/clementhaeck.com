@@ -1,0 +1,33 @@
+
+.site-footer {
+    padding: 2% 20%;
+
+    border-top: solid 1px;
+    border-color: lighten($color-on-background, 50%);
+
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: lighten($color-on-background, 30%);
+    font-size: 0.9 em;
+
+    a {
+        color: $color-primary;
+    }
+
+    .text {
+    }
+
+    .social {
+        font-size: 1.8em;
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        li {
+            display: inline;
+            margin: .2em;
+        }
+    }
+}

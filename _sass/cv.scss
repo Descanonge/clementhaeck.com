@@ -1,0 +1,39 @@
+
+.cv {
+    @extend %padding-small;
+    float: left;
+    text-align: left;
+
+    h2 {
+        text-align: center;
+        margin-top: 1.5em;
+        &:first-of-type {
+            margin-top: 0;
+        }
+    }
+
+    li {
+        margin-bottom: 1em;
+
+        emph {
+            font-style: italic;
+        }
+    }
+
+    .cv-title {
+        font-weight: bold;
+        font-style: normal;
+    }
+   
+    .cv-date {
+        float: right;
+    }
+
+    .cv-location {
+        font-style: italic;
+    }
+
+    .cv-description {
+        margin: .5em 30% 0em 1%;
+    }
+}

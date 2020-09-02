@@ -1,0 +1,12 @@
+
+- link: http://github.com/Descanonge
+  title: Github
+  class: fa-github
+
+- link: http://gitlab.in2p3.fr/clement.haeck
+  title: Gitlab IN2P3
+  class: fa-gitlab
+
+- link: mailto:clement.haeck@locean-ipsl.upmc.fr
+  title: Mail to
+  class: fa-envelope

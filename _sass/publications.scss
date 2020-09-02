@@ -1,0 +1,12 @@
+
+.publications {
+    @extend %padding-small;
+
+    .authors {
+        font-weight: bold;
+    }
+
+    .journal {
+        font-style: italic;
+    }
+}

@@ -1,0 +1,16 @@
+
+// Mix-ins
+%padding-small {
+    padding: $padding-vert $padding-small;
+    @media (max-width: 1000px) {
+        padding: $padding-vert $padding-x-small;
+    }
+}
+
+%padding-large {
+    padding: $padding-vert $padding-large;
+    @media (max-width: 1000px) {
+        padding: $padding-vert $padding-x-small;
+    }
+}
+

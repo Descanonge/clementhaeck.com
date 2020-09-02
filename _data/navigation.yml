@@ -1,0 +1,12 @@
+
+- name: CV
+  link: cv.html
+  alt: my cv
+
+- name: Publications
+  link: publications.html
+  alt: my publications
+
+- name: Posts
+  link: posts.html
+  alt: blog posts

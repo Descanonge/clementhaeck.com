@@ -1,0 +1,18 @@
+
+<footer class="site-footer">
+  <div class="social">
+    <ul>
+      {% for item in site.data.social %}
+      <li>
+        <a href="{{ item.link }}" title="{{ item.title }}" class="fa {{ item.class }}"></a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <br>
+  <p class="text">Powered by
+    <a href="http://jekyllrb.com">Jekyll</a> , inspired by
+    <a href="http://github.com/rohanchandra/type-theme">Type Theme</a>
+  </p>
+</footer>
