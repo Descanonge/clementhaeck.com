@@ -26,9 +26,9 @@ title: Home
         <h2>Contact</h2>
         <table>
             <tr>
-                <td><a class="fa fa-envelope" href="mailto:clement.haeck@locean-ipsl.upmc.fr"></a></td>
+                <td><a class="fa fa-envelope" href="mailto:clement.haeck@locean.ipsl.fr"></a></td>
                 <td>Send me a mail at
-                    <a href="mailto:clement.haeck@locean-ipsl.upmc.fr">clement.haeck@locean-ipsl.upmc.fr</a></td>
+                    <a href="mailto:clement.haeck@locean.ipsl.fr">clement.haeck@locean.ipsl.fr</a></td>
             </tr>
 
             <tr>
