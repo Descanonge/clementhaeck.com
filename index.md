@@ -4,7 +4,7 @@ title: Home
 ---
 
 <div class="index">
-    <div class="about">
+    <div class="about dark--hidden">
         <h2>About</h2>
         <p>
             Faudrait que je mette une présentation de moi et une photo, mais
@@ -22,8 +22,8 @@ title: Home
         </p>
     </div>
 
-    <div class="contact-table">
-        <h2>Contact</h2>
+    <div class="contact-table light--hidden">
+        <h2>Contacts</h2>
         <table>
             <tr>
                 <td><a class="fa fa-envelope" href="mailto:clement.haeck@locean.ipsl.fr"></a></td>
@@ -35,9 +35,7 @@ title: Home
                 <td><a href="http://github.com/Descanonge" class="fa fa-github"></a></td>
                 <td>
                     Check out my <a href="http://github.com/Descanonge">github
-                    account</a>. Be sure to look at <a
-                    href="http://github.com/Descanonge/tomate">Tomate</a>, a
-                    python package to load data from disk and manipulate it.
+                    account</a>.
                 </td>
             </tr>
 
@@ -48,7 +46,7 @@ title: Home
                 <td>
                     Check out my <a
                                      href="http://gitlab.in2p3.fr/clement.haeck">gitlab
-                                     account</a> for more work related projects.
+                                     account</a>, this is where I keep my work projects.
                 </td>
             </tr>
 

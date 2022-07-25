@@ -1,4 +1,7 @@
 
+@import 'colors/light-scheme';
+@import 'colors/dark-scheme';
+
 @import 'base/variables';
 @import 'base/global';
 @import 'base/utility';
@@ -7,5 +10,5 @@
 @import 'includes/footer';
 
 @import 'cv';
-@import 'publications';
+@import 'works';
 @import 'index';

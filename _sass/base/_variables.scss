@@ -1,7 +1,41 @@
 
-// Colors
-$background-color: #fff !default;
-$surface-color: #fff !default;
+@mixin mode-toggle($dark-mode: false) {
+  @if $dark-mode {
+    @include dark-scheme;
+
+    .mode-toggle {
+      transform: rotateY(180deg);
+    }
+
+  } @else {
+    @include light-scheme;
+
+    .mode-toggle {
+      transform: none;
+    }
+  }
+
+}
+
+html:not([mode]),
+html[mode=light] {
+  @include mode-toggle();
+}
+
+html[mode=dark] {
+  @include mode-toggle(true);
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not([mode]),
+  html[mode=dark] {
+    @include mode-toggle(true);
+  }
+
+  html[mode=light] {
+    @include mode-toggle();
+  }
+}
 
 $color-primary: #86dde3 !default;
 $color-primary-variant: #33a9b6 !default;

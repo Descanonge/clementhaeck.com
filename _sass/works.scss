@@ -1,4 +1,12 @@
 
+.works {
+    @extend %padding-small;
+
+    .projects {
+        padding: 1% 5%;
+    }
+}
+
 .publications {
     @extend %padding-small;
 

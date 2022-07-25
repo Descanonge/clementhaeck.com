@@ -1,12 +1,12 @@
 
 - name: CV
-  link: cv.html
+  link: /cv.html
   alt: my cv
 
-- name: Publications
-  link: publications.html
-  alt: my publications
+- name: Works
+  link: /works.html
+  alt: my publications and some of my projects
 
 - name: Posts
-  link: posts.html
+  link: /posts.html
   alt: blog posts

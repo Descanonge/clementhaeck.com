@@ -1,7 +1,17 @@
 
+
+:root[mode="dark"] .dark--hidden {
+    display: none;
+}
+:root[mode="light"] .light--hidden {
+    display: none;
+}
+
+
 .index {
+
     .about {
-        @extend %padding-large;
+        @extend %padding-small;
         float: center;
     }
 

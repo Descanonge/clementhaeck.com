@@ -5,10 +5,10 @@
     box-sizing: border-box;
 }
 html {
-    background-color: $background-color;
+    background-color: var(--background-color);
 }
 
-selection {
+::selection {
     color: $color-on-primary;
     background: $color-primary;
 }
@@ -24,6 +24,7 @@ body {
     word-wrap: break-word;
 }
 h1, h2, h3, h4, h5, h6 {
+    font-family: $font-family;
     line-height: 1.2;
     margin: 0.67em 0;
     a {
@@ -31,21 +32,27 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 h1 {
-    font-size: 2.5 em;
+    font-size: 2.5em;
 }
 h2 {
-    font-size: 2 em;
+    font-size: 2em;
 }
 h3 {
-    font-size: 1.5 em;
+    font-size: 1.5em;
 }
 h4 {
-    font-size: 1.15 em;
+    font-size: 1.15em;
 }
 
 a {
     color: $color-primary-variant;
     text-decoration: none;
+}
+
+// Lists within lists
+li > ul, li > ol {
+    margin-bottom: 0;
+    margin-left: 1em;
 }
 
 iframe, img, embed, object, video {
