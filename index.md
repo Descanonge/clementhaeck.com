@@ -7,18 +7,7 @@ title: Home
     <div class="about dark--hidden">
         <h2>About</h2>
         <p>
-            Faudrait que je mette une présentation de moi et une photo, mais
-            j'ai un peu la flemme.
-        </p>
-        <br>
-        <p>
-            Id neque aliquam vestibulum morbi blandit cursus risus, at ultrices mi
-            tempus imperdiet nulla malesuada pellentesque elit eget gravida cum
-            sociis! Sapien pellentesque habitant morbi tristique senectus et netus
-            et?
-            Praesent tristique magna sit amet purus gravida quis. Elementum
-            curabitur vitae nunc sed velit dignissim sodales ut eu sem integer
-            vitae justo eget magna fermentum iaculis eu non diam phasellus?
+        ...
         </p>
     </div>
 

@@ -6,9 +6,6 @@ title: Works
 
 <div class="works">
   <h2>Publications</h2>
-  While I finish writing my first Nature article, here some of my bibliography
-  to test if my CSS is working.
-
   <div class="publications">
   <ul>
     {% for item in site.data.publications %}
@@ -31,6 +28,15 @@ title: Works
 
   <div class="projects">
   <ul>
+    <li>
+      <h3>XArray-Histogram
+      <a href="http://github.com/Descanonge/xarray-histogram">
+        <img src="/assets/img/github.svg" width="25" title="Github page"></a>
+      <a href="http://pypi.org/project/filefinder">
+        <img src="/assets/img/language-python.svg" width="25" title="PyPi page"></a>
+      </h3>
+      Compute histogram from XArray data
+    </li>
     <li>
       <h3>FileFinder
       <a href="http://github.com/Descanonge/filefinder">
