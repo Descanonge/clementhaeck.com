@@ -4,7 +4,7 @@
   <meta name="description" content="{% t global.description %}" />
   <meta name="keywords" content="{% t global.keywords %}" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/pure-min.css" integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/grids-responsive-min.css">  <link rel="stylesheet" href="{{ 'assets/styles.css' }}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/grids-responsive-min.css">  <link rel="stylesheet" href="{{ 'assets/styles.css' | relative_url }}">
   <title>{{ site.title }} | {{ site.data[site.lang].navigation[page.title].title }}</title>
   <meta property="og:title" content="{% t global.title %}" />
   <meta property="og:image" content="{{ site.url | append: site.avatar }}" />
