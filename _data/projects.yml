@@ -10,8 +10,6 @@ xarray-histogram:
   links:
     - url: https://github.com/Descanonge/xarray-histogram
       type: "fab fa-github"
-    - url: https://pypi.org/project/xarray-histogram/
-      type: "fa-brands fa-python"
 tol-colors:
   name: Tol-Colors
   links:
