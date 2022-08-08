@@ -1,7 +1,7 @@
 <header class="masthead">
   {% if site.avatar -%}
     <div class="avatar">
-      <img src="{{ site.avatar }}" class="avatar-image" alt="author photo">
+      <img src="{{ site.url | append: site.avatar }}" class="avatar-image" alt="author photo">
     </div>
   {%- endif %}
   {% assign item = site.data[site.lang].navigation["home"] %}
