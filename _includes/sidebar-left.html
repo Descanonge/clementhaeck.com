@@ -1,0 +1,53 @@
+<header class="masthead">
+  {% if site.avatar -%}
+    <div class="avatar">
+      {%- if site.avatar contains "://" -%}
+        {%- assign avatar = site.avatar -%}
+      {%- else -%}
+        {%- assign avatar = site.avatar | relative_url -%}
+      {%- endif -%}
+      <img src="{{ avatar }}" class="avatar-image" alt="{{ site.author.name }}">
+    </div>
+  {%- endif %}
+  {% assign item = site.data[site.lang].navigation["home"] %}
+  <div class="masthead-title">
+    <a href="{{ item.url }}" title="{{ item.title }}">{{ site.title }}</a>
+  </div>
+  <div class="masthead-tagline">
+    <small>{% t global.description %}</small>
+  </div>
+  <nav class="navigation">
+    <ul class="navigation-list">
+    {% for nav in site.sidebar-pages %}
+      {% assign item = site.data[site.lang].navigation[nav] %}
+      <li class="navigation-item">
+        <a title="{{ item.title }}" onclick="sessionStorage.setItem('forceCheckScroll', 'true')" href="{{ item.url }}">{{ item.title }}</a>
+      </li>
+    {%- endfor -%}
+    </ul>
+  </nav>
+  <div class="social pure-menu pure-menu-horizontal">
+    <ul class="social-icons pure-menu-list">
+    {% for social in site.data.social -%}
+      <li class="pure-menu-item">
+        <a class="social-icon pure-menu-link" href="{{ social.url }}">
+          <i class="{{ social.icon | default: 'fas fa-link' }}" title="{{ social.title }}"></i>
+        </a>
+      </li>
+    {%- endfor %}
+    </ul>
+  </div>
+  <div class="languages pure-menu pure-menu-horizontal">
+    <ul class="languages-list pure-menu-list">
+      {% for lang in site.languages %}
+        <li class="pure-menu-item">
+          {% if forloop.index0 == 0 %}
+            <a href="{{ page.url }}" title="{{ lang }}" class="lang-link pure-menu-link">{{ lang }}</a>
+          {% else %}
+            <a href="/{{ lang }}{{ page.url }}" title="{{ lang }}" class="lang-link pure-menu-link">{{ lang }}</a>
+          {%- endif -%}
+        </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+</header>

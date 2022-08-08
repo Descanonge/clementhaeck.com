@@ -1,0 +1,9 @@
+home:
+    title: Accueil
+    url: /fr
+cv:
+    title: CV
+    url: /fr/cv/
+works:
+    title: Mon travail
+    url: /fr/works/

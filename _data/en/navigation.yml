@@ -1,0 +1,9 @@
+home:
+    title: Home
+    url: /
+cv:
+    title: CV
+    url: /cv/
+works:
+    title: My work
+    url: /works/

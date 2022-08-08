@@ -1,0 +1,30 @@
+filefinder: >-
+  Ce paquet permet de trouver des fichiers grâce à la structure de
+  leur nom de fichier. Utile pour gérer des bases de données
+  constituées de beaucoup de fichiers, avec de multiples dates
+  ou paramêtres par exemple.
+
+  La structure des noms des fichiers est indiqué avec une syntaxe
+  simple mais puissante. Les parties des noms de fichiers qui
+  varient entre les différents fichiers sont indiquées avec
+  des 'format string', des expressions régulières ou avec des
+  valeurs par défaut (principalement pour les dates).
+
+xarray-histogram: >-
+  Ce paquet permet de calculer des histogrammes depuis des données
+  gérées par XArray, profitant ainsi de la gestion des labels et
+  dimensions.
+  Les calculs reposent sur la librairie Boost Histogram, donnant
+  des fonctionalités supplémentaires et de meilleures performances
+  qu'avec les fonctions numpy.
+
+tol-colors: >-
+  Un paquet qui donne accès à des sets de couleurs pour des lignes
+  ou des cartes, tous adaptés aux personnes daltoniennes.
+  Ces jeux de couleurs ont été créés par
+  [Paul Tol](https://personal.sron.nl/~pault/), je les ai
+  seulement rendus accessibles sur Pypi.
+
+dateloop: >-
+  Une simple commande bash pour créer des ensembles de dates.
+  Utile pour des opérations sur des ensembles de dates.

@@ -1,6 +1,35 @@
+# Setup
+title: Clément Haëck
+base-url: https://clementhaeck.com
+permalink: pretty
+avatar: "/assets/img/avatar.jpg"
+cover_bg_color: "rgb(78, 152, 162)"
 
-destination: /home/clement/Nextcloud/Documents/Websites/pinako
+# Gems
+plugins:
+  - jekyll-multiple-languages-plugin
 
-settings:
-  title: Clément Haëck
-  description: My personal website
+# Optimize Jekyll
+exclude:
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+author:
+  name: Clément Haëck
+  url: https://github.com/Descanonge/
+  email: clement.haeck@locean.ipsl.fr
+
+sidebar-pages: ["cv", "works"]
+
+languages: ["en", "fr"]
+languages_default: en
+# exclude-from-localizations: ["img", "css"]
+default_locale_in_subfolder: false

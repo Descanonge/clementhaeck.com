@@ -1,3 +1,26 @@
-
-- name: FileFinder
-  description: Lourd
+filefinder:
+  name: Filefinder
+  links:
+    - url: https://github.com/Descanonge/filefinder
+      type: "fab fa-github"
+    - url: https://pypi.org/project/filefinder/
+      type: "fa-brands fa-python"
+xarray-histogram:
+  name: XArray-histogram
+  links:
+    - url: https://github.com/Descanonge/xarray-histogram
+      type: "fab fa-github"
+    - url: https://pypi.org/project/xarray-histogram/
+      type: "fa-brands fa-python"
+tol-colors:
+  name: Tol-Colors
+  links:
+    - url: https://github.com/Descanonge/tol_colors
+      type: "fab fa-github"
+    - url: https://pypi.org/project/tol-colors/
+      type: "fa-brands fa-python"
+dateloop:
+  name: Dateloop
+  links:
+    - url: https://github.com/Descanonge/dateloop
+      type: "fab fa-github"

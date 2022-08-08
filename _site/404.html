@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PhD student @ LOCEAN, Paris" />
+  <meta name="keywords" content="personnal, research, oceanography" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/pure-min.css" integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/grids-responsive-min.css">  <link rel="stylesheet" href="/assets/styles.css">
+  <title>Clément Haëck | </title>
+  <meta property="og:title" content="Clément Haëck" />
+  <meta property="og:image" content="https://clementhaeck.com/assets/img/avatar.jpg" />
+  <meta property="og:description" content="PhD student @ LOCEAN, Paris" />
+  <meta property="og:url" content="https://clementhaeck.com/404.html" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="" />
+</head>
+
+
+  <body>
+
+    <div class="container pure-g"><div class="sidebar-left pure-u-1 pure-u-md-1-4" style="background-color: rgb(78, 152, 162); color: rgb(255, 255, 255);"><header class="masthead">
+  <div class="avatar"><img src="/assets/img/avatar.jpg" class="avatar-image" alt="Clément Haëck">
+    </div>
+  
+  <div class="masthead-title">
+    <a href="/" title="Home">Clément Haëck</a>
+  </div>
+  <div class="masthead-tagline">
+    <small>PhD student @ LOCEAN, Paris</small>
+  </div>
+  <nav class="navigation">
+    <ul class="navigation-list">
+    
+      
+      <li class="navigation-item">
+        <a title="CV" onclick="sessionStorage.setItem('forceCheckScroll', 'true')" href="/cv/">CV</a>
+      </li>
+      
+      <li class="navigation-item">
+        <a title="My work" onclick="sessionStorage.setItem('forceCheckScroll', 'true')" href="/works/">My work</a>
+      </li></ul>
+  </nav>
+  <div class="social pure-menu pure-menu-horizontal">
+    <ul class="social-icons pure-menu-list">
+    <li class="pure-menu-item">
+        <a class="social-icon pure-menu-link" href="mailto://clement.haeck@locean.ipsl.fr">
+          <i class="fas fa-envelope" title="Email"></i>
+        </a>
+      </li><li class="pure-menu-item">
+        <a class="social-icon pure-menu-link" href="https://github.com/Descanonge">
+          <i class="fab fa-github" title="GitHub"></i>
+        </a>
+      </li><li class="pure-menu-item">
+        <a class="social-icon pure-menu-link" href="https://gitlab.in2p3.fr/clement.haeck">
+          <i class="fab fa-gitlab" title="Gitlab (IN2P3)"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="languages pure-menu pure-menu-horizontal">
+    <ul class="languages-list pure-menu-list">
+      
+        <li class="pure-menu-item">
+          
+            <a href="/404.html" title="en" class="lang-link pure-menu-link">en</a>
+          </li>
+        <li class="pure-menu-item">
+          
+            <a href="/fr/404.html" title="fr" class="lang-link pure-menu-link">fr</a></li></ul>
+  </div>
+</header>
+</div>
+
+      <div class="content pure-u-1 pure-u-md-1-2"><main>
+  <div class="page">
+  <h1 class="page-title">404: Page not found</h1>
+  <p class="lead">Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. <a href="/">Head back home</a> to try finding it again.</p>
+</div>
+
+
+</main>
+
+<footer class="footer"><small>
+    &copy;  <a href="https://github.com/Descanonge/">Clément Haëck</a>. All rights reserved.
+    Powered by <a href="https://jekyllrb.com/">Jekyll</a> & <a href="https://github.com/vszhub/not-pure-poole">Not Pure Poole</a>.
+  </small>
+</footer>
+</div>
+      <div class="sidebar-right pure-u-1 pure-u-md-1-4">
+</div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/87e8a8de46.js" crossorigin="anonymous"></script><script>
+  function strip(str, remove) {
+    while (str.length > 0 && remove.indexOf(str.charAt(0)) != -1) {
+      str = str.substr(1);
+    }
+    while (str.length > 0 && remove.indexOf(str.charAt(str.length - 1)) != -1) {
+      str = str.substr(0, str.length - 1);
+    }
+    return str;
+  }
+
+  function scroll() {
+    console.log('scroll');
+    window.scrollTo({
+      left: 0, 
+      top: window.innerHeight,
+      behavior: 'smooth'
+    });
+    sessionStorage.removeItem('forceCheckScroll');
+  }
+
+  const forceCheckScroll = sessionStorage.getItem('forceCheckScroll') === 'true';
+  const checkScroll = strip(window.location.pathname, '/') !== strip('', '/');
+
+  if (forceCheckScroll || checkScroll) {
+    const maxWidth = "(max-width: 48rem)";
+    const result = window.matchMedia(maxWidth);
+    if (result.matches) {
+      scroll();
+    } else {
+      result.addListener((match) => {
+        if (match.media == maxWidth) {
+          if (match.matches) {
+            scroll();
+          }
+        }
+      });
+    }
+  }
+</script>
+</body>
+</html>

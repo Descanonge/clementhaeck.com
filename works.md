@@ -1,68 +1,18 @@
 ---
 layout: default
-title: Works
+title: works
+permalink: /works/
+toc: true
 ---
+{% translate_file works.md %}
 
-
-<div class="works">
-  <h2>Publications</h2>
-  <div class="publications">
-  <ul>
-    {% for item in site.data.publications %}
-      <li>
-        <span class="authors">{{ item.authors }}</span>
-        <span class="date">({{ item.date }})</span>
-        <span class="title">{{ item.title }}</span>
-        <span class="journal">{{ item.journal }}</span>
-        <a href="{{ item.link }}">{{ item.link-name }}</a>
-        {% if item.rest %}
-          <span class="rest">{{ item.rest }}</span>
-        {% endif %}
-      </li>
-    {% endfor %}
-  </ul>
-  </div>
-
-  <h2>Projects</h2>
-  Here are some projects that I hope can be useful to you !
-
-  <div class="projects">
-  <ul>
-    <li>
-      <h3>XArray-Histogram
-      <a href="http://github.com/Descanonge/xarray-histogram">
-        <img src="/assets/img/github.svg" width="25" title="Github page"></a>
-      <a href="http://pypi.org/project/filefinder">
-        <img src="/assets/img/language-python.svg" width="25" title="PyPi page"></a>
-      </h3>
-      Compute histogram from XArray data
-    </li>
-    <li>
-      <h3>FileFinder
-      <a href="http://github.com/Descanonge/filefinder">
-        <img src="/assets/img/github.svg" width="25" title="Github page"></a>
-      <a href="http://pypi.org/project/filefinder">
-        <img src="/assets/img/language-python.svg" width="25" title="PyPi page"></a>
-      </h3>
-      Find files using a simple syntax, and much more !
-    </li>
-    <li>
-      <h3>Tol_colors
-      <a href="http://github.com/Descanonge/tol_colors">
-        <img src="/assets/img/github.svg" width="25" title="Github page"></a>
-      <a href="http://pypi.org/project/tol_colors">
-        <img src="/assets/img/language-python.svg" width="25" title="PyPi page"></a>
-      </h3>
-      Color schemes for lines and maps, color-blind safe. They were made by <a href="https://personal.sron.nl/~pault/" title="Paul's website">Paul Tol</a>, I just packaged them for an easier installation.
-    </li>
-    <li>
-      <h3>Dateloop
-      <a href="http://github.com/Descanonge/dateloop">
-        <img src="/assets/img/github.svg" width="25" title="Github page"></a>
-      </h3>
-      Little tool to loop between dates in bash.
-    </li>
+{%- for project-hash in site.data.projects -%}
+  {%- assign name = project-hash[0] -%}
+  {%- assign project = project-hash[1] -%}
+  <h3 id="{{ name }}">{{ project.name }}</h3>
+  {%- for link in project.links -%}
+     <a href="{{ link.url }}" title="{{ project.name }}"><i class="{{ link.type }}"></i></a>&nbsp;
+  {%- endfor -%}
+  {{ site.data[site.lang].projects[name] }}
   
-  </ul>
-  </div>
-</div>
+{% endfor -%}

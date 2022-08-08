@@ -1,0 +1,9 @@
+global:
+  title: Clément Haëck
+  description: PhD student @ LOCEAN, Paris
+  keywords: personnal, research, oceanography
+  og:
+    locale: en_US
+
+  english: English
+  french: French
