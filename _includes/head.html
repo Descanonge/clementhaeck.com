@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/grids-responsive-min.css">  <link rel="stylesheet" href="{{ 'assets/styles.css' | relative_url }}">
   <title>{{ site.title }} | {{ site.data[site.lang].navigation[page.title].title }}</title>
   <meta property="og:title" content="{% t global.title %}" />
-  <meta property="og:image" content="{{ site.base-url | append: site.avatar }}" />
+  <meta property="og:image" content="{{ site.base-url | append: '/' | append: site.avatar }}" />
   <meta property="og:description" content="{% t global.description %}" />
   <meta property="og:url" content="{{ site.base-url }}{% if page.url %}{{ page.url }}{% endif %}" />
   <meta property="og:locale" content="{% t global.og.locale %}" />

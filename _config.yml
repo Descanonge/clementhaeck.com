@@ -2,7 +2,7 @@
 title: Clément Haëck
 base-url: https://clementhaeck.com
 permalink: pretty
-avatar: "/assets/img/avatar.jpg"
+avatar: "assets/img/avatar.jpg"
 cover_bg_color: "rgb(78, 152, 162)"
 
 # Gems
