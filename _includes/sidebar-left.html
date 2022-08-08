@@ -6,7 +6,8 @@
       {%- else -%}
         {%- assign avatar = site.avatar | relative_url -%}
       {%- endif -%}
-      <img src="{{ avatar }}" class="avatar-image" alt="{{ site.author.name }}">
+      {{ avatar }}
+      <img src="{{ avatar }}" class="avatar-image" alt="author photo">
     </div>
   {%- endif %}
   {% assign item = site.data[site.lang].navigation["home"] %}

@@ -1,11 +1,9 @@
 ---
 layout: default
 title: cv
-
 toc: true
-
 namespace: cv
-permalink: /cv
+permalink: /cv/
 ---
 
 {% assign collid = 1 %}

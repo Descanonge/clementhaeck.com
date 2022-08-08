@@ -1,8 +1,9 @@
 ---
 layout: default
 title: works
-permalink: /works/
 toc: true
+namespace: works
+permalink: /works/
 ---
 {% translate_file works.md %}
 
