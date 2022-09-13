@@ -132,3 +132,14 @@ a[href^="#fnref:"] {
   color: var(--grey-600);
   float: right;
 }
+
+.cv-link {
+    text-decoration: none;
+    color: var(--text-color);
+
+    &:hover,
+    &:focus {
+        color: var(--text-color);
+        text-decoration: underline;
+    }
+}
