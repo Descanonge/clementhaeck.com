@@ -5,9 +5,9 @@ Je suis doctorant en océanographie au <a href="https://www.locean.ipsl.fr" titl
 Je planifie de continuer à travailler sur le même sujet comme ingénieur de recherche, dans le même laboratoire, à partir du printemps 2023.
 
 {% assign works = site.data.fr.navigation.works -%}
-Ma recherche porte sur l'impact des fronts de sub-mésoéchelle sur la production et la biodiversité du phytoplancton.
-J'ai développé plusieurs outils informatiques qui pourraient être utiles à d'autres.
-Vous pouvez trouver plus de détails dans la section "<a href="{{ works.url }}" title="{{ works.title }}">{{ works.title }}</a>". 
+J'étudie l'impact des fronts de sub-mésoéchelle sur la production et la biodiversité du phytoplancton.
+J'essaye de faire en sorte que mon travail soit ré-utilisable par d'autres et ce faisant j'ai écrit plusieurs outils qui pourraient vous être utiles.
+Vous pourrez trouver plus de détails dans la section "<a href="{{ works.url }}" title="{{ works.title }}">{{ works.title }}</a>". 
 
 ## Contact
 

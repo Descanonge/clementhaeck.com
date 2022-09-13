@@ -1,21 +1,62 @@
-- education:
-  name: Éducation
+- experience:
+  name: Expérience
+
   items:
+    - title: Ingénieur de Recherche
+      date: 2023 - 2025
+      location: >-
+        Laboratoire d'Océanographie et du Climat:
+          Expérimentations et Approches Numérique (LOCEAN), Paris
+      description: >-
+        Contrat CNRS prévu de débuter après ma thèse, financé dans le
+        cadre d’un projet CNES. Sous la direction de Marina Lévy (LOCEAN),
+        je vais développer les méthodes mises en place lors de ma thèse.
+
     - title: Doctorant
       date: 2019 - Fev. 2023
       location: >-
         Laboratoire d'Océanographie et du Climat:
-          Expérimentations et Approches Numérique (LOCEAN)
+          Expérimentations et Approches Numérique (LOCEAN), Paris
       description: >-
-        Under the supervision of Marina Lévy (LOCEAN) and Laurent Bopp (ENS),
-        Study of interactions between oceanic currents and diversity of
-        phytoplankton from satellite products
+        Sous la direction de Marina Lévy (LOCEAN) et Laurent Bopp (LMD),
+        j'étudie l'impact des fronts océanicques sur la croissance et la
+        biodiversité du phytoplankton, depuis des données satellites.
+
+- education:
+  name: Éducation
+
+  items:
     - title: Master 2 - Méchanique des Fluides,
       date: 2018 - 2019
       location: École Polytechnique et Sorbonne Université
+
     - title: Licence 3 - PhyTEM (Physique, Théorie, Expériences, Modèles)
       date: 2016
       location: École Normale Supérieure Paris-Saclay
+
+- conferences:
+  name: Conférences
+
+  items:
+    - title: Filachange Workshop
+      date: Mai 2022
+      location: Présentation courte
+      url: "https://www.swot-adac.org/news-and-events/filachange-workshop"
+    - title: EGU 2022
+      date: Mai 2022
+      location: "Présentation courte dans OS4.5: Ocean Remote Sensing"
+      url: "https://meetingorganizer.copernicus.org/EGU22/EGU22-8668.html"
+    - title: Ocean Carbon from Space Workshop
+      date: Février 2022
+      url: "https://oceancarbonfromspace2022.esa.int/"
+    - title: EGU 2021
+      date: Avril 2021
+      location: "Présentation vPico dans OS4.3: Ocean Remote Sensing"
+      url: "https://meetingorganizer.copernicus.org/EGU21/EGU21-4178.html"
+    - title: LAPCOD (Lagrangian Analysis and Prediction of Coastal and Ocean Dynamics) 2019
+      date: Juin 2019
+      location: Présentation courte
+      url: "https://lapcod.rsmas.miami.edu/2019-Venice/index.php?page=home"
 
 - enseignement:
   name: Enseignement
@@ -30,7 +71,8 @@
       date: 2020 - 2021
       location: Sorbonne Université
       description: >-
-        Cours d'introduction à la physique numérique en C++, niveau L3. J'ai dispensé des cours, et encadré des TD, TP et projets (60h en tout).
+        Cours d'introduction à la physique numérique en C++, niveau L3. J'ai
+        dispensé des cours, et encadré des TD, TP et projets (60h en tout).
 
 - internships:
   name: Stages
@@ -40,27 +82,30 @@
       duration: 6 mois
       location: LOCEAN
       description: >-
-        Under the supervision of Marina Lévy, Study of interactions between
-        oceanic currents and diversity of phytoplankton from satellite
-        products
+        Sous la direction de Marina Lévy, étude des interactions entre courants
+        océaniques et diversité phytoplanctonique à partir de données
+        satellitaires
+
     - title: Année de Recherche Pré-doctorale à l'Étranger (ARPE)
       date: 2017 - 2018
       location: >-
         IFISC (Institute for Cross-Disciplinary Physics and Complex Systems),
         Universitat de les Illes Balears, Palma de Mallorca, Spain
       description: >-
-        Under the supervision of Cristóbal López, I studied numerically the
-        application of network theory and dynamical systems tools to the
-        advection of tracers in oceanic flows
+        Sous la direction de Cristóbal López, j’ai étudié numériquement
+        l’application de la théorie des réseaux et des systèmes dynamiques à des
+        problèmes d’advection dans des écoulements océaniques
+
     - title: Stage de recherche (M1)
       date: 2017 (5 mois)
       location: >-
         LIFE (Laboratory for Fluid-Structure Interaction) à Universitat Rovira
         i Virgili, Tarragona, Spain
       description: >-
-        Under the supervision of Francisco Huera-Huarte and Sukruth Satheesh,
-        I studied experimentally the effect of free surface on a flat plate
-        translating perpendicular to the flow
+        Sous la direction de Francisco Huera-Huarte et Sukruth Satheesh, j’ai
+        étudié expérimentalement l’influence de la surface libre sur une plaque
+        fine propulsée perpendiculairement à l’écoulement
+
     - title: Stage de recherche (L3)
       date: 2016 (1 mois)
       location: >-
@@ -68,10 +113,10 @@
         Supérieure de Physique et de Chimie Industrielles de la ville de
         Paris), Paris
       description: >-
-        Under the supervision of Ramiro Godoy-Diana and Marion Segall, I
-        studied experimentally the flow around head of snakes models
-        underwater under acceleration to put in evidence morphologic
-        differences between species
+        Sous la direction de Ramiro Godoy-Diana et Marion Segall, j’ai étudié
+        expérimentalement l’écoule- ment hydrodynamique autour de modèles de
+        têtes de serpents afin de mettre en évidence des dif- férences
+        morphologiques entre différentes espèces
 
 - skills:
   name: Compétences

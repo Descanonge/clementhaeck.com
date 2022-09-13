@@ -12,15 +12,19 @@ permalink: /cv/
   {% for item in cat.items %}
   <ul>
     <li>
-      <span><strong>{{ item.title }}</strong></span>
-      {% if item.date %}
+      {%- if item.url -%}
+        <span><a href="{{ item.url }}" class="cv-link"><strong>{{ item.title }}</strong></a></span>
+      {%- else -%}
+        <span><strong>{{ item.title }}</strong></span>
+      {% endif %}
+      {%- if item.date %}
         <span class="cv-date">&ensp;{{ item.date }}</span>
-      {% endif %}
-      {% if item.location %}
+      {% endif -%}
+      {%- if item.location -%}
         <p><em>{{ item.location }}</em></p>
-      {% endif %}
-      {% if item.description %}
-      {% assign collid = collid | plus: 1 %}
+      {% endif -%}
+      {%- if item.description -%}
+      {%- assign collid = collid | plus: 1 -%}
       <div class="tab">
           <input type="checkbox" id="chk{{ collid }}">
           <label class="tab-label" for="chk{{ collid }}"></label>
@@ -28,7 +32,7 @@ permalink: /cv/
             {{ item.description }}
           </div>
       </div>
-      {% endif %}
+      {% endif -%}
     </li>
   </ul>
   {% endfor %}

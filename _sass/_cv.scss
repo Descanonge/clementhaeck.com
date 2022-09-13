@@ -1,0 +1,12 @@
+
+
+.cv-link {
+    text-decoration: none;
+    color: var(--text-color);
+
+    &:hover,
+    &:focus {
+        color: var(--text-color);
+        text-decoration: underline;
+    }
+}

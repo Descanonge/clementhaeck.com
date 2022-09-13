@@ -5,5 +5,5 @@ In construction...
 
 ## Other projects
 
-I have developped a couple of tools that could be useful to other people.
+Below are some tools I developped that you may find useful.
 
