@@ -7,7 +7,7 @@ Je planifie de continuer à travailler sur le même sujet comme ingénieur de re
 {% assign works = site.data.fr.navigation.works -%}
 J'étudie l'impact des fronts de sub-mésoéchelle sur la production et la biodiversité du phytoplancton.
 J'essaye de faire en sorte que mon travail soit ré-utilisable par d'autres et ce faisant j'ai écrit plusieurs outils qui pourraient vous être utiles.
-Vous pourrez trouver plus de détails dans la section "<a href="{{ works.url }}" title="{{ works.title }}">{{ works.title }}</a>". 
+Vous pourrez trouver plus de détails dans la section <a href="{{ works.url }}" title="{{ works.title }}">{{ works.title }}</a>. 
 
 ## Contact
 

@@ -34,15 +34,15 @@
   </div>
   <div class="languages pure-menu pure-menu-horizontal">
     <ul class="languages-list pure-menu-list">
-      {% for lang in site.languages %}
+      {%- for lang in site.languages %}
         <li class="pure-menu-item">
-          {% if forloop.index0 == 0 %}
+          {%- if forloop.index0 == 0 -%}
             <a href="{{ page.url }}" title="{{ lang }}" class="lang-link pure-menu-link">{{ lang }}</a>
-          {% else %}
+          {%- else -%}
             <a href="/{{ lang }}{{ page.url }}" title="{{ lang }}" class="lang-link pure-menu-link">{{ lang }}</a>
           {%- endif -%}
         </li>
-      {%- endfor -%}
+      {%- endfor %}
     </ul>
   </div>
 </header>

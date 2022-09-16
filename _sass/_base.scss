@@ -39,6 +39,14 @@ img {
   border-radius: var(--border-radius);
 }
 
+figure {
+  padding-bottom: var(--spacer);
+  figcaption {
+    font-size: small;
+    text-align: center;
+  }
+}
+
 table {
   margin-bottom: 1rem;
   width: 100%;

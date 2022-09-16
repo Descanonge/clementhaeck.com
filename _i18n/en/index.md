@@ -7,11 +7,11 @@ I expect to continue working on the same subject but as a research engineer in t
 {% assign works = site.data.en.navigation.works -%}
 I work on the impact of sub-mesoscale fronts on the productivity and biodiversiy of phytoplankton.
 I try to make my work re-usable by others and in so-doing I have written some tools that you may find useful.
-You can find more information is the section "<a href="{{ works.url }}" title="{{ works.title }}">{{ works.title }}</a>".
+You can find more information is the section <a href="{{ works.url }}" title="{{ works.title }}">{{ works.title }}</a>.
 
 ## Contact
 
-You can find me:
+You can contact me:
  - by mail at <a href="mailto://{{ site.author.email }}" title="mail">{{ site.author.email }}</a>.
  - on <a href="{{ site.data.social.gitlab.url }}" title="gitlab">Gitlab (IN2P3)</a> where is kept my PhD work
  - on <a href="{{ site.data.social.github.url }}" title="github">GitHub</a> where I keep other projects

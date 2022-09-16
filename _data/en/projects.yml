@@ -1,6 +1,6 @@
 filefinder: >-
   This package allows to find files from their filename structure.
-  Useful when dealing with database composed from many files with
+  Useful when dealing with databases composed from many files with
   varying dates or parameters.
 
   The structure of filenames is indicated with a simple but
