@@ -20,6 +20,10 @@
 
 
   <body>
+    <script src="/assets/js/index.js"></script>
+    <script>
+     document.body.classList.toggle('dark-mode', prefersDarkMode());
+    </script>
 
     <div class="container pure-g"><div class="sidebar-left pure-u-1 pure-u-md-1-4" style="background-color: rgb(78, 152, 162); color: rgb(255, 255, 255);"><header class="masthead">
   <div class="avatar">
@@ -34,31 +38,31 @@
   </div>
   <nav class="navigation">
     <ul class="navigation-list">
-    
       
-      <li class="navigation-item">
-        <a title="CV" onclick="sessionStorage.setItem('forceCheckScroll', 'true')" href="/cv/">CV</a>
-      </li>
-      
-      <li class="navigation-item">
-        <a title="My work" onclick="sessionStorage.setItem('forceCheckScroll', 'true')" href="/works/">My work</a>
-      </li></ul>
+        
+        <li class="navigation-item">
+          <a title="CV" onclick="sessionStorage.setItem('forceCheckScroll', 'true')" href="/cv/">CV</a>
+        </li>
+        
+        <li class="navigation-item">
+          <a title="My work" onclick="sessionStorage.setItem('forceCheckScroll', 'true')" href="/works/">My work</a>
+        </li></ul>
   </nav>
   <div class="social pure-menu pure-menu-horizontal">
     <ul class="social-icons pure-menu-list">
-    <li class="pure-menu-item">
-        <a class="social-icon pure-menu-link" href="mailto://clement.haeck@locean.ipsl.fr">
-          <i class="fas fa-envelope" title="Email"></i>
-        </a>
-      </li><li class="pure-menu-item">
-        <a class="social-icon pure-menu-link" href="https://github.com/Descanonge">
-          <i class="fab fa-github" title="GitHub"></i>
-        </a>
-      </li><li class="pure-menu-item">
-        <a class="social-icon pure-menu-link" href="https://gitlab.in2p3.fr/clement.haeck">
-          <i class="fab fa-gitlab" title="Gitlab (IN2P3)"></i>
-        </a>
-      </li>
+      <li class="pure-menu-item">
+          <a class="social-icon pure-menu-link" href="mailto://clement.haeck@locean.ipsl.fr">
+            <i class="fas fa-envelope" title="Email"></i>
+          </a>
+        </li><li class="pure-menu-item">
+          <a class="social-icon pure-menu-link" href="https://github.com/Descanonge">
+            <i class="fab fa-github" title="GitHub"></i>
+          </a>
+        </li><li class="pure-menu-item">
+          <a class="social-icon pure-menu-link" href="https://gitlab.in2p3.fr/clement.haeck">
+            <i class="fab fa-gitlab" title="Gitlab (IN2P3)"></i>
+          </a>
+        </li>
     </ul>
   </div>
   <div class="languages pure-menu pure-menu-horizontal">
@@ -67,8 +71,14 @@
         <li class="pure-menu-item"><a href="/fr/404.html" title="fr" class="lang-link pure-menu-link">fr</a></li>
     </ul>
   </div>
+  <div class="dark-mode-switch">
+    <button id="btn" class="btn" onclick="switchMode(this)">
+      <img alt="Dark mode switch" src="/assets/img/switch-mode.svg">
+    </button>
+  </div>
 </header>
 </div>
+
 
       <div class="content pure-u-1 pure-u-md-1-2"><main>
   <div class="page">

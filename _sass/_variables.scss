@@ -51,6 +51,7 @@
   --spacer-3: calc(var(--spacer) * 3);
 }
 
+// I leave this block to make dark scheme work without js
 @media (prefers-color-scheme: dark) {
   :root {
     --body-color: var(--gray-300);
@@ -65,6 +66,20 @@
 
     --code-bg: #282828;
   }
+}
+
+.dark-mode {
+  --body-color: var(--gray-300);
+  --body-bg: var(--gray-800);
+
+  --heading-color: #fff;
+
+  --link-color: var(--blue-300);
+  --link-hover-color: var(--blue-400);
+
+  --border-color: rgba(255,255,255,.15);
+
+  --code-bg: #282828;
 }
 
 $sm-width: 35.5rem;

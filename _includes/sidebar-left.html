@@ -13,23 +13,23 @@
   </div>
   <nav class="navigation">
     <ul class="navigation-list">
-    {% for nav in site.sidebar-pages %}
-      {% assign item = site.data[site.lang].navigation[nav] %}
-      <li class="navigation-item">
-        <a title="{{ item.title }}" onclick="sessionStorage.setItem('forceCheckScroll', 'true')" href="{{ item.url }}">{{ item.title }}</a>
-      </li>
-    {%- endfor -%}
+      {% for nav in site.sidebar-pages %}
+        {% assign item = site.data[site.lang].navigation[nav] %}
+        <li class="navigation-item">
+          <a title="{{ item.title }}" onclick="sessionStorage.setItem('forceCheckScroll', 'true')" href="{{ item.url }}">{{ item.title }}</a>
+        </li>
+      {%- endfor -%}
     </ul>
   </nav>
   <div class="social pure-menu pure-menu-horizontal">
     <ul class="social-icons pure-menu-list">
-    {% for social in site.data.social -%}
-      <li class="pure-menu-item">
-        <a class="social-icon pure-menu-link" href="{{ social.url }}">
-          <i class="{{ social.icon | default: 'fas fa-link' }}" title="{{ social.title }}"></i>
-        </a>
-      </li>
-    {%- endfor %}
+      {% for social in site.data.social -%}
+        <li class="pure-menu-item">
+          <a class="social-icon pure-menu-link" href="{{ social.url }}">
+            <i class="{{ social.icon | default: 'fas fa-link' }}" title="{{ social.title }}"></i>
+          </a>
+        </li>
+      {%- endfor %}
     </ul>
   </div>
   <div class="languages pure-menu pure-menu-horizontal">
@@ -44,5 +44,10 @@
         </li>
       {%- endfor %}
     </ul>
+  </div>
+  <div class="dark-mode-switch">
+    <button id="btn" class="btn" onclick="switchMode(this)">
+      <img alt="Dark mode switch" src="/assets/img/switch-mode.svg">
+    </button>
   </div>
 </header>

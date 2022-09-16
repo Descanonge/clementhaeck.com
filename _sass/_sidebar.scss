@@ -10,6 +10,7 @@
   a {
     color: inherit;
     text-decoration: none;
+    transition-duration: 0.1s;
   }
 }
 
@@ -105,5 +106,34 @@
 @media (max-width: $md-width) {
   .avatar-image {
     width: 15%;
+  }
+}
+
+.dark-mode-switch {
+  position: relative;
+
+}
+
+.btn {
+  appearance: none;
+  border: none;
+  width: 60px;
+  height: 50px;
+  background: 0;
+  border-radius: 5px;
+  img {
+    transition: transform 0.7s ease;
+  }
+}
+
+.btn:hover {
+  background-color: #eee2;
+  img {
+  }
+}
+
+.btn.active{
+  img {
+    transform: rotate(+720deg);
   }
 }
