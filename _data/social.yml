@@ -1,6 +1,6 @@
 - mail:
   title: Email
-  url: mailto://clement.haeck@locean.ipsl.fr
+  url: mailto:clement.haeck@locean.ipsl.fr
   icon: fas fa-envelope
 - github:
   title: GitHub
