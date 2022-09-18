@@ -18,7 +18,7 @@ L'augmentation de Chlorophylle est plus importante pour les fronts intenses que 
 
 J'ai également pu détecter un bloom de printemps commencant quelques jours plus tôt dans les fronts que dans le background. Cela peut être expliqué par la tendance à re-stratifier des fronts de sub-mésoéchelle. Le bloom est aussi plus long de quelques jours dans les fronts.
 
-Nous plannifions d'étendre cette étude à la composition du phytoplancton, and à d'autres régions d'études.
+Nous plannifions d'étendre cette étude à la composition du phytoplancton, et à d'autres régions d'études.
 
 ## Projets annexes
 
