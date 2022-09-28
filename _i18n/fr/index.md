@@ -1,7 +1,7 @@
 
 Bienvenue sur mon site !
 
-Je suis doctorant en océanographie au <a href="https://www.locean.ipsl.fr" title="Laboratoire d'Océanographie et du Climat: Expérimentations et Analyses Numériques">LOCEAN</a> (<a href="https://www.ipsl.fr" title="Institut Pierre-Simon Laplace">IPSL</a>), à Paris.
+Je suis doctorant en océanographie au <a href="https://www.locean.ipsl.fr" title="Laboratoire d'Océanographie et du Climat: Expérimentations et Approches Numériques">LOCEAN</a> (<a href="https://www.ipsl.fr" title="Institut Pierre-Simon Laplace">IPSL</a>), à Paris.
 Je planifie de continuer à travailler sur le même sujet comme ingénieur de recherche, dans le même laboratoire, à partir du printemps 2023.
 
 {% assign works = site.data.fr.navigation.works -%}

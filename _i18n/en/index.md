@@ -1,7 +1,7 @@
 
 Welcome to my website !
 
-I am a PhD student in oceanography at the <a href="https://www.locean.ipsl.fr/en" title="Laboratoire d'Océanographie et du Climat: Expérimentations et Analyses Numériques">LOCEAN</a> laboratory (<a href="https://www.ipsl.fr/en" title="Institut Pierre-Simon Laplace">IPSL</a>), in Paris.
+I am a PhD student in oceanography at the <a href="https://www.locean.ipsl.fr/en" title="Laboratoire d'Océanographie et du Climat: Expérimentations et Approches Numériques">LOCEAN</a> laboratory (<a href="https://www.ipsl.fr/en" title="Institut Pierre-Simon Laplace">IPSL</a>), in Paris.
 I expect to continue working on the same subject but as a research engineer in the same lab, starting spring 2023.
 
 {% assign works = site.data.en.navigation.works -%}
