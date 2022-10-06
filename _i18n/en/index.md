@@ -7,7 +7,7 @@ I expect to continue working on the same subject but as a research engineer in t
 {% assign works = site.data.en.navigation.works -%}
 I work on the impact of sub-mesoscale fronts on the productivity and biodiversiy of phytoplankton.
 I try to make my work re-usable by others and in so-doing I have written some tools that you may find useful.
-You can find more information is the section <a href="{{ works.url }}" title="{{ works.title }}">{{ works.title }}</a>.
+You can find more information in the section <a href="{{ works.url }}" title="{{ works.title }}">{{ works.title }}</a>.
 
 ## Contact
 
