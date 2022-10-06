@@ -20,6 +20,8 @@ J'ai également pu détecter un bloom de printemps commencant quelques jours plu
 
 Nous plannifions d'étendre cette étude à la composition du phytoplancton, et à d'autres régions d'études.
 
+Vous pourrez trouver tous les codes utilisés dans cette étude ici: <a href="{{ site.data.social.gitlab.url }}" title="gitlab">Gitlab (IN2P3)</a>.
+
 ## Projets annexes
 
 Vous pourrez trouver ci-dessous quelques outils que j'ai développé qui pourraient vous être utiles.
