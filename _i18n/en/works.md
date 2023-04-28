@@ -18,7 +18,7 @@ I have also been able to detect a spring bloom onset that is a few days earlier 
 
 We are planning to extend this study to the phytoplankton composition, and to other study regions.
 
-You can find all the code used for this study here: <a href="{{ site.data.social.gitlab.url }}" title="gitlab">Gitlab (IN2P3)</a>.
+You can find all the code used for this study here: <a href="https://gitlab.in2p3.fr/clementhaeck/submeso-color" title="gitlab">Gitlab (IN2P3)</a>.
 
 ## Other projects
 
