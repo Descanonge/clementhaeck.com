@@ -13,6 +13,6 @@ You can find more information in the section <a href="{{ works.url }}" title="{{
 
 You can contact me:
  - by mail at <a href="mailto://{{ site.author.email }}" title="mail">{{ site.author.email }}</a>.
- - on <a href="{{ site.data.social.gitlab.url }}" title="gitlab">Gitlab (IN2P3)</a> where is kept my PhD work
- - on <a href="{{ site.data.social.github.url }}" title="github">GitHub</a> where I keep other projects
+ - on <a href="https://gitlab.in2p3.fr/clementhaeck" title="gitlab">Gitlab (IN2P3)</a> where is kept my PhD work
+ - on <a href="https://github.com/Descanonge" title="github">GitHub</a> where I keep other projects
  - or in my office, campus <a href="https://www.sorbonne-universite.fr/campus-et-sites#CampusPierreetMarieCurie" title="campus location">Jussieu</a> in 45-55 426.

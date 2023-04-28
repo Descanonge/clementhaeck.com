@@ -10,14 +10,14 @@ filefinder: >-
   or with pre-defined defaults (mainly for dates).
 
 xarray-histogram: >-
-  This package allow to compute histograms from XArray data,
+  This package allows to compute histograms from XArray data,
   taking advantage of its label and dimensions management.
   It relies on the Boost Histogram library for the computations,
   giving more features and better performances than numpy
   functions !
 
 tol-colors: >-
-  A package which supply color schemes for lines and maps,
+  A package which supplies color schemes for lines and maps,
   all color-blind safe.
   They were designed by [Paul Tol](https://personal.sron.nl/~pault/),
   I merely made it available on PyPi to make it easier to
