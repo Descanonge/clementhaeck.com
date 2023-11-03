@@ -36,7 +36,3 @@ Et voici quelques autres de mes réseaux sociaux:
   href="https://orcid.org/0009-0005-1947-4593"
   title="orcid"
   class="fa-brands fa-orcid">}}ORCID: 0009-0005-1947-4593{{< /sociallinks >}}
-- {{< sociallinks
-  href="https://www.instagram.com/clementhaeck/"
-  title="instagram"
-  class="fa-brands fa-instagram">}}@clementhaeck{{< /sociallinks >}}
