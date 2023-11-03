@@ -28,14 +28,18 @@ enableGitInfo = false
 [languages.en]
   languageName = 'English'
   weight = 1
+[languages.en.menu]
+[[languages.en.menu.before]]
+  name = 'Home'
+  pageRef = '/'
+  weight = 5
 
 [languages.fr]
   languageName = 'French'
   weight = 2
-
-[menu]
-[[menu.before]]
-  name = 'Home'
+[languages.fr.menu]
+[[languages.fr.menu.before]]
+  name = 'Accueil'
   pageRef = '/'
   weight = 5
 
