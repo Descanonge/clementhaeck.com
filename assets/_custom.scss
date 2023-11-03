@@ -1,0 +1,144 @@
+
+
+.nav-social-block {
+    margin-top: 2rem;
+    text-align: center;
+}
+.nav-social-list {
+    list-style: none;
+    display: inline-flex;
+
+    .nav-social-item {
+        display: block;
+
+        margin: 0 0.6rem;
+    }
+}
+
+.book-footer {
+    margin-top: 2rem;
+    padding: 0;
+
+    .footer-details {
+        opacity: 0.7;
+    }
+}
+
+.cv-category {
+    border-radius: 5px;
+    border: 2px solid;
+    padding: 5px;
+}
+.cv-category1 {
+    background-color: var(--color-block1);
+    border-color: var(--color-border1);
+}
+.cv-category2 {
+    background-color: var(--color-block2);
+    border-color: var(--color-border2);
+}
+.cv-category3 {
+    background-color: var(--color-block3);
+    border-color: var(--color-border3);
+}
+
+.cv-item {
+    margin-bottom: 2em;
+
+    .cv-title {
+        font-weight: bold;
+    }
+
+    .cv-date {
+        font-style: italic;
+    }
+    .cv-location {
+        font-style: italic;
+        margin: 0;
+    }
+
+    .cv-details {
+        padding-top: 2px;
+        padding-bottom: 2px;
+
+        summary {
+            opacity: 0.6;
+            outline-style: none;
+            margin-top: -2px;
+            margin-bottom: -2px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+
+            &:hover,
+            &:focus-visible {
+                background-color: var(--gray-500);
+            }
+        }
+    }
+}
+
+.bib-item {
+    margin-bottom: 2em;
+
+    .bib-authors {
+    }
+
+    .bib-orcid {
+
+    }
+
+    .bib-issue {
+        font-style: italic;
+    }
+
+    .bib-volume {
+        font-weight: bold;
+    }
+}
+
+.nocolor-link {
+    text-decoration: none !important;
+    color: var(--body-font-color) !important;
+
+    &:hover,
+    &:focus {
+        color: var(--body-font-color) !important;
+        text-decoration: underline !important;
+    }
+}
+
+.icon-link {
+    color: var(--body-font-color) !important;
+
+    &:hover,
+    &:focus {
+        color: var(--body-font-color) !important;
+        text-decoration: none !important;
+    }
+}
+
+figcaption {
+    font-style: italic;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.work-illustration {
+    padding-left: 8%;
+    padding-right: 8%;
+    img {
+    }
+}
+
+@media screen and (max-width: $mobile-breakpoint){
+    .work-illustration {
+        padding: 0;
+    }
+}
+
+.markdown {
+    a.book-btn:hover{
+        background-color: var(--gray-100);
+    }
+}

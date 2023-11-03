@@ -1,0 +1,15 @@
+<!-- <ul>
+     <li><a href="/posts">Blog</a></li>
+     </ul> -->
+
+<div class="nav-social-block">
+    <ul class="nav-social-list">
+        {{ range site.Params.social }}
+        <li class="nav-social-item">
+            <a href="{{ .url }}" class="nav-social-link" title="{{ .title }}">
+                <i class="{{ .icon }} fa-2xl"></i>
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+</div>

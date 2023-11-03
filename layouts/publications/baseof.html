@@ -1,0 +1,58 @@
+{{ define "main" }}
+<article class="markdown">
+    {{ "# Publications" | markdownify }}
+
+    {{- .Content -}}
+
+    {{ $bib := site.Data.publications.references }}
+    {{ $bib := sort $bib ".date" "desc" }}
+    {{ $authorsRef := site.Data.publications.authors }}
+
+    {{ $years := slice }}
+    {{ range $bib }}
+    {{ $years = $years | append .year }}
+    {{ end }}
+    {{ $years := $years | uniq }}
+    {{ $years := sort $years "value" "desc" }}
+
+    {{ range $year := $years }}
+    {{ (add "## " (string $year)) | markdownify }}
+
+    <ul class="bib-list">
+        {{ range where $bib "year" $year }}
+        <li class="bib-item">
+            {{ $authorsList := slice }}
+            {{ range $author := .authors }}
+                {{ $authorName := printf "%s %s" $author.given $author.family }}
+                {{ $authorID := anchorize (printf "%s-%s" $author.family $author.given) }}
+                {{ $authorRef := index $authorsRef $authorID }}
+                {{ if isset $authorRef "orcid" }}
+                    {{ $authorName = add $authorName (printf "<sup><a title=\"ORCID\" href=\"https://orcid.org/%s\" class=\"bib-orcid\">o</a></sup>" $authorRef.orcid) }}
+                {{ end }}
+                {{ $authorsList = $authorsList | append $authorName }}
+            {{ end }}
+            <span class="bib-authors">
+                {{ delimit $authorsList ", " (printf " %s " (i18n "and")) }}
+            </span>
+            —
+            <span class="bib-title">“{{ .title }}”</span>,
+            <span class="bib-issue">{{ index . "container-title" }}</span>
+            {{- with .volume -}}
+                <span class="bib-volume"> {{ . -}}</span>
+            {{- end -}},
+            <span class="bib-date">{{ .date }}</span>,
+            {{ with .DOI }}
+                <span class="bib-doi"><a alt="DOI" href="{{ printf "https://doi.org/%s" . }}">DOI:&nbsp;{{ . }}</a></span>
+            {{ else }}
+                {{ with .url }}
+                    <span class="bib-url"><a alt="URL" href="{{ . }}">URL:&nbsp;{{ . }}</a></span>
+                {{ end }}
+            {{ end }}
+        </li>
+        {{ end }}
+    </ul>
+
+    {{ end }}
+</article>
+
+{{ end }}
