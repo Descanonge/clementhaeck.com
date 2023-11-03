@@ -1,0 +1,120 @@
+
+authors:
+  lévy-marina:
+    orcid: "0000-0003-2961-608X"
+  bopp-laurent:
+    orcid: "0000-0003-4732-4953"
+  mangolte-inès:
+    orcid: "0000-0002-0358-844X"
+  prend-channing-j:
+    orcid: "0000-0003-4661-0480"
+  couespel-damien:
+    orcid: "0000-0003-2244-1352"
+  keerthi-mg:
+    orcid: "0000-0003-1288-8118"
+
+references:
+  - id: haeck_2023_thesis
+    authors:
+      - family: Haëck
+        given: Clément
+    container-title: Thèse de doctorat
+    title: >-
+      Impact des fronts sur le phytoplancton dans la région du Gulf Stream
+      quantifié par imagerie satellitaire
+    url: https://theses.hal.science/tel-04249198
+    date: 2023-07
+    year: 2023
+  
+  - id: haeck_2023
+    authors:
+      - family: Haëck
+        given: Clément
+      - family: Lévy
+        given: Marina
+      - family: Mangolte
+        given: Inès
+      - family: Bopp
+        given: Laurent
+    container-title: Biogeosciences
+    container-title-short: Biogeosciences
+    DOI: 10.5194/bg-20-1741-2023
+    ISSN: 1726-4189
+    issue: '9'
+    date: 2023-05-11
+    year: 2023
+    language: en
+    page: 1741-1758
+    source: DOI.org (Crossref)
+    title: >-
+      Satellite data reveal earlier and stronger phytoplankton blooms over fronts
+      in the Gulf Stream region
+    type: article-journal
+    URL: https://bg.copernicus.org/articles/20/1741/2023/
+    volume: '20'
+
+  - id: levy_2024
+    accessed:
+      - year: 2023
+        month: 7
+        day: 30
+    authors:
+      - family: Lévy
+        given: Marina
+      - family: Couespel
+        given: Damien
+      - family: Haëck
+        given: Clément
+      - family: Keerthi
+        given: M.G.
+      - family: Mangolte
+        given: Inès
+      - family: Prend
+        given: Channing J.
+    container-title: Annual Review of Marine Science
+    container-title-short: Annu. Rev. Mar. Sci.
+    DOI: 10.1146/annurev-marine-020723-020531
+    ISSN: 1941-1405, 1941-0611
+    issue: '1'
+    date: 2024-01-03
+    year: 2024
+    language: en
+    page: annurev-marine-020723-020531
+    source: DOI.org (Crossref)
+    title: >-
+      The Impact of Fine-Scale Currents on Biogeochemical Cycles in a Changing
+      Ocean
+    type: article-journal
+    URL: https://www.annualreviews.org/doi/10.1146/annurev-marine-020723-020531
+    volume: '16'
+
+  - id: mangolte_2023
+    authors:
+      - family: Mangolte
+        given: Inès
+      - family: Lévy
+        given: Marina
+      - family: Haëck
+        given: Clément
+      - family: Ohman
+        given: Mark D.
+    container-title: Biogeosciences
+    container-title-short: Biogeosciences
+    DOI: 10.5194/bg-20-3273-2023
+    ISSN: 1726-4189
+    issue: '15'
+    date: 2023-08-11
+    year: 2023
+    issued:
+      - year: 2023
+        month: 8
+        day: 11
+    language: en
+    page: 3273-3299
+    source: DOI.org (Crossref)
+    title: >-
+      Sub-frontal niches of plankton communities driven by transport and trophic
+      interactions at ocean fronts
+    type: article-journal
+    URL: https://bg.copernicus.org/articles/20/3273/2023/
+    volume: '20'

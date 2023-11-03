@@ -1,0 +1,34 @@
+{{ range $categoryIdx, $category := .Page.Params.categories }}
+
+## {{ $category.name }}
+
+<div class="cv-category cv-category{{ add 1 (mod $categoryIdx 3) }}">
+<ul>
+{{ range $category.items }}
+
+<li class="cv-item"><span class="cv-title">
+{{- if isset . "url" -}}
+<a href="{{ .url }}" class="nocolor-link">{{- .title -}}</a>
+{{- else -}}
+{{- .title -}}
+{{ end }}
+</span>
+{{- with .date -}}
+<span class="cv-date">&ensp;{{ . }}</span>
+{{ end }}
+{{- with .location -}}
+<p class="cv-location">{{ . | $.Page.RenderString }}</p>
+{{ end }}
+{{ with .description }}
+<details class="cv-details">
+    <summary>{{ i18n "details" }}</summary>
+    <div class="markdown-inner">
+    {{ . | $.Page.RenderString }}
+    </div>
+</details>
+{{ end }}
+{{ end }}
+</li>
+</ul>
+</div>
+{{ end }}

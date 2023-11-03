@@ -1,0 +1,9 @@
+<a href="{{ $.Params.href }}"
+   title="{{ $.Params.title }}">
+{{- with .Get "class" -}}
+    <i class="{{ . }} icon-link"></i>
+{{- end -}}
+{{- with .Inner }}
+{{ . }}
+{{- end -}}
+</a>
