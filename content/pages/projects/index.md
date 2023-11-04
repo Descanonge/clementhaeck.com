@@ -1,5 +1,5 @@
 ---
-title: Products
+title: Projects
 type: docs
 ---
 

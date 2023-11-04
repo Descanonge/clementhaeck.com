@@ -1,6 +1,6 @@
 ---
-title: Produits
-slug: produits
+title: Projets
+slug: projets
 type: docs
 ---
 
