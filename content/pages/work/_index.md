@@ -18,12 +18,13 @@ During my thesis, I attempted to quantify the impact of fronts (key structures a
     class="work-illustration"
 >}}
 
-Nous détectons les fronts en calculant un 'Heterogeneity Index' à partir de la température de surface de la mer satellite (Haëck et al. 2023[^1], Liu & Levine 2016[^2]).
+We detected fronts by computing an Heterogeneity Index from satelltie sea surface temperature (Haëck et al. 2023[^1], Liu & Levine 2016[^2]).
 
-Ensuite, nous avons quantifié la chlorophylle (également à partir de données satellites) à l'intérieur et à l'extérieur de ces fronts. Ce travail a été rendu difficile par la présence de régions de régimes biogéochimiques différents, et de gradients à grande échelle au sein de ces régions.
-
-Nous montrons l'importance de distinguer l'impact des fronts mesurés *localement*, et *régionalement* en tenant compte de la surface impactée. Nous observons égalment que l'impact des fronts dépend de leur intensité.
-Enfin, nous avons pu mesurer un début de bloom plus précoce dans les fronts, d'une à deux semaines.
+We then quantified the chlorophyll (also from satellite data) inside and outside these fronts.
+This work was made challenging by the presence of regions with different biogeochemical regimes and large-scale gradients within these regions.
+We show the importance of distinguishing the impact of fronts measured *locally*, and *regionally* by taking the impacted surface into account.
+We observe that the impact of fronts depends on their intensity.
+Lastly we were able to measure an earlier bloom onset with the fronts, by one to two weeks.
 
 {{< figure
     src="article_recap_thumb.png"
@@ -31,7 +32,7 @@ Enfin, nous avons pu mesurer un début de bloom plus précoce dans les fronts, d
     class="work-illustration"
 >}}
 
-Ces résultats sont présentés dans l'article: ["Satellite data reveal earlier and stronger phytoplankton blooms over fronts in the Gulf Stream region"](https://doi.org/10.5194/bg-20-1741-2023), ainsi que dans mon [manuscrit de thèse](https://theses.hal.science/tel-04249198).
+These findings are presented in the article ["Satellite data reveal earlier and stronger phytoplankton blooms over fronts in the Gulf Stream region"](https://doi.org/10.5194/bg-20-1741-2023), as well as in my [PhD manuscript (in french)](https://theses.hal.science/tel-04249198).
 
 ## Current
 
@@ -41,7 +42,7 @@ It has also been applied in the California Current region[^4], with the aim (amo
 As part of the [4DMED-Sea](http://ricerca.ismar.cnr.it/4DMED/Phyto_c1.html#) project, this methodology will be applied to the mediterranean sea.
 Several avenues of study are also being considered: decadal trends, the influence some methodological parameters (beyond those already tested),...
 
-Even if the code used is already publicly available ([gitlab.in2p3.fr/clementhaeck/submeso-color](https://gitlab.in2p3.fr/clementhaeck/submeso-color)), I am currently working to make them more accessible and easily reusable, splitting them into two separate projects: [heterogeneity-index]({{< relref "/pages/projects#heterogeneity-index" >}}) and [data-assistant]({{< relref "/pages/projects#data-assistant" >}}).
+Even if the code used is already publicly available (<a  href="https://gitlab.in2p3.fr/clementhaeck/submeso-color">gitlab.in2p3.fr/clementhaeck/submeso-color</a>), I am currently working to make them more accessible and easily reusable, splitting them into two separate projects: <a href="{{< relref "/pages/projects#heterogeneity-index" >}}">heterogeneity-index</a> and <a href="{{< relref "/pages/projects#data-assistant" >}}">data-assistant</a>.
 
 [^1]: Haëck C., Lévy M., Mangolte I., Bopp L.
     “Satellite Data Reveal Earlier and Stronger Phytoplankton Blooms over Fronts in the Gulf Stream Region”.

@@ -43,7 +43,7 @@ Elle a également été appliquée dans la zone du courant Californien[^4], dans
 Dans le cadre du projet [4DMED-Sea](http://ricerca.ismar.cnr.it/4DMED/Phyto_c1.html#), cette méthodologie sera appliquée à la mer mediterranée.
 Plusieurs autres pistes d'études sont également considérées: tendances décennales, influence de certains paramètres de la méthodologie (au delà de ce qui a déjà été testé),...
 
-Quand bien même les codes utilisés sont déjà disponibles publiquement ([gitlab.in2p3.fr/clementhaeck/submeso-color](https://gitlab.in2p3.fr/clementhaeck/submeso-color)), je travaille à les rendre plus accessibles et plus facilement réutilisables. Ils sont séparés en deux projets: [heterogeneity-index]({{< relref "/pages/projects#heterogeneity-index" >}}) et [data-assistant]({{< relref "/pages/projects#data-assistant" >}}).
+Quand bien même les codes utilisés sont déjà disponibles publiquement (<a  href="https://gitlab.in2p3.fr/clementhaeck/submeso-color">gitlab.in2p3.fr/clementhaeck/submeso-color</a>), je travaille à les rendre plus accessibles et plus facilement réutilisables. Ils sont séparés en deux projets: <a href="{{< relref "/pages/projects#heterogeneity-index" >}}">heterogeneity-index</a> et <a href="{{< relref "/pages/projects#data-assistant" >}}">data-assistant</a>.
 
 [^1]: Haëck C., Lévy M., Mangolte I., Bopp L.
     “Satellite Data Reveal Earlier and Stronger Phytoplankton Blooms over Fronts in the Gulf Stream Region”.
