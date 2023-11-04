@@ -6,26 +6,25 @@ categories:
     name: Experience
 
     items:
-      - title: Research Engineer
+      - title: Postdoc - Research Engineer
         date: 2023 - 2025
         location: >-
           Laboratoire d'Océanographie et du Climat:
             Expérimentations et Approches Numériques (LOCEAN), Paris
         description: >-
-          Planned to start after the end of my PhD, under a CNRS contract
-          and financed by a CNES (Centre National d’Études Spatiales) project.
           Under the supervision of Marina Lévy (LOCEAN), I will further develop
-          the methods established during my PhD.
+          the methods established during my PhD, as outlined in a CNES project
+          providing funding.
+          This work will also help prepare for their application in one of the case studies
+          of the [4DMED-Sea](http://ricerca.ismar.cnr.it/4DMED/Phyto_c1.html#) project.
 
       - title: Ph.D Student
-        date: 2019 - estimated to end Feb. 2023
-        location: >-
-          Laboratoire d'Océanographie et du Climat:
-            Expérimentations et Approches Numériques (LOCEAN), Paris
+        date: 2019 - 2023
+        location: LOCEAN, Paris
         description: >-
           Under the supervision of Marina Lévy (LOCEAN) and Laurent Bopp (ENS),
-          I study the impact of oceanic fronts on phytoplankton growth and
-          biodiversity, from satellite products.
+          I studied from satellite imagery the impact of oceanic fronts on phytoplankton in the Gulf
+          Stream region.
 
   - education:
     name: Education
