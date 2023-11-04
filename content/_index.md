@@ -1,6 +1,5 @@
 ---
 title: Home
-BookToC: false
 weight: 10
 ---
 
@@ -10,9 +9,8 @@ Welcome to my website !
 
 I am a postdoc in oceanography at the [LOCEAN](https://www.locean.ipsl.fr/en "Laboratoire d'Océanographie et du Climat: Expérimentations et Approches Numériques") laboratory (<a href="https://www.ipsl.fr/en" title="Institut Pierre-Simon Laplace">IPSL</a>), in Paris.
 
-I work on the impact of sub-mesoscale fronts on the productivity and biodiversiy of phytoplankton (<a href={{< relref "/pages/work" >}} title="My work">My work</a>).
-Even more so than these scientific questions, I am particularly interested in developing the methodology to make such studies easier to conduct, to replicate and to share.
-Hopefully, you will find libraries and tools that could be of use to you: [Products]({{< relref "/pages/products" >}} "Products").
+I work on the impact of sub-mesoscale fronts on the productivity and biodiversiy of phytoplankton.
+Beyond these scientific questions, I am particularly interested in developing the methodology to make such studies easier to conduct, to replicate and to share.
 
 ## Contact
 
