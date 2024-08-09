@@ -12,8 +12,32 @@ authors:
     orcid: "0000-0003-2244-1352"
   keerthi-mg:
     orcid: "0000-0003-1288-8118"
+  cassianides-angelina:
+    orcid: "0000-0002-4189-4157"
+  el-hourany-roy:
+    orcid: "0000-0002-6454-1645"
 
 references:
+  - id: levy_2024a
+    authors:
+      - family: Lévy
+        given: Marina
+      - family: Haëck
+        given: Clément
+      - family: Mangolte
+        given: Inès
+      - family: Cassianides
+        given: Angelina
+      - family: El Hourany
+        given: Roy
+    title: >-
+      Satellite data reveal fine-scale dissimilarities in
+      phytoplankton assemblage
+    container-title: Preprint ESS Open Archive
+    url: https://www.authorea.com/users/664528/articles/1213829-satellite-data-reveal-fine-scale-dissimilarities-in-phytoplankton-assemblage#
+    date: 2024-07
+    year: 2024
+
   - id: haeck_2023_thesis
     authors:
       - family: Haëck
