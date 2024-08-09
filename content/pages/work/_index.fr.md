@@ -38,12 +38,12 @@ Ces résultats sont présentés dans l'article: ["Satellite data reveal earlier 
 ## Présent
 
 Je continue à travailler sur la méthodologie mise en place.
-Nous avons commencé à l'appliquer à des données sur la composition du phytoplancton, générées par Roy El Hourany[^3].
-Elle a également été appliquée dans la zone du courant Californien[^4], dans l'optique (entre autres) d'étendre les résultats ci-dessus à d'autres régions.
+Nous l'avons depuis appliqué à des données sur la composition du phytoplancton, générées par Roy El Hourany[^3] (en review[^4]).
+Elle a également été appliquée dans la zone du courant Californien[^5], dans l'optique (entre autres) d'étendre les résultats ci-dessus à d'autres régions.
 Dans le cadre du projet [4DMED-Sea](http://ricerca.ismar.cnr.it/4DMED/Phyto_c1.html#), cette méthodologie sera appliquée à la mer mediterranée.
 Plusieurs autres pistes d'études sont également considérées: tendances décennales, influence de certains paramètres de la méthodologie (au delà de ce qui a déjà été testé),...
 
-Quand bien même les codes utilisés sont déjà disponibles publiquement (<a  href="https://gitlab.in2p3.fr/clementhaeck/submeso-color">gitlab.in2p3.fr/clementhaeck/submeso-color</a>), je travaille à les rendre plus accessibles et plus facilement réutilisables. Ils sont séparés en deux projets: <a href="{{< relref "/pages/projects#heterogeneity-index" >}}">heterogeneity-index</a> et <a href="{{< relref "/pages/projects#data-assistant" >}}">data-assistant</a>.
+Quand bien même les codes utilisés sont déjà disponibles publiquement (<a  href="https://gitlab.in2p3.fr/clementhaeck/submeso-color">gitlab.in2p3.fr/clementhaeck/submeso-color</a>), je travaille à les rendre plus accessibles et plus facilement réutilisables. Ils sont séparés en deux projets: <a href="{{< relref "/pages/projects#heterogeneity-index" >}}">heterogeneity-index</a> et <a href="{{< relref "/pages/projects#data-assistant" >}}">data-assistant</a>. Leur application à l'échelle globale est en développement à (<a  href="https://gitlab.in2p3.fr/biofronts/submeso-color">gitlab.in2p3.fr/biofronts/submeso-color</a>).
 
 [^1]: Haëck C., Lévy M., Mangolte I., Bopp L.
     “Satellite Data Reveal Earlier and Stronger Phytoplankton Blooms over Fronts in the Gulf Stream Region”.
@@ -60,7 +60,12 @@ Quand bien même les codes utilisés sont déjà disponibles publiquement (<a  h
     *J. Geophys. Res. Oceans* **124.2** (feb. 2019), p. 1357-1378.
     [doi:10.1029/2018jc014450](https://doi.org/10.1029/2018jc014450)
 
-[^4]: Mangolte I., Lévy M., Haëck C., Ohman M.D.
+[^4]: Lévy M., Haëck C., Mangolte I., Cassianides A., El Hourany R.
+    “Satellite data reveal fine-scale dissimilarities in phytoplankton assemblage” *[pre-print]*.
+    *ESS Open Archive* (jul. 2024).
+    url:<https://www.authorea.com/users/664528/articles/1213829-satellite-data-reveal-fine-scale-dissimilarities-in-phytoplankton-assemblage#>
+
+[^5]: Mangolte I., Lévy M., Haëck C., Ohman M.D.
     “Sub-frontal niches of plankton communities driven by transport and trophic interactions at ocean fronts”.
     *Biogeosciences* **20.15**, (aug. 2023).
     [doi:10.5194/bg-20-3273-2023](https://doi.org/10.5194/bg-20-3273-2023)
