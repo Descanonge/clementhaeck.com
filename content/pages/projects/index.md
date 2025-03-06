@@ -5,8 +5,6 @@ type: docs
 
 # Projects
 
-Some of my projects, more or less related to my work, and which I hope might interest you.
-
 ## FileFinder
 
 {{< button href="https://github.com/Descanonge/filefinder"
@@ -38,6 +36,16 @@ For example one of the available scheme ('vibrant'):
     alt="color samples from the vibrant color scheme"
 >}}
 
+## XArray-histogram
+
+{{< button href="https://github.com/Descanonge/xarray-histogram"
+>}}<i class="fa fa-github"></i> Github{{</ button >}}
+
+I use histograms a lot as intermediary results to reduce the volume of data to analyse.
+This package is similar to the existing [xhistogram](https://xhistogram.readthedocs.io/) but at its core uses [Boost Histogram](https://boost-histogram.readthedocs.io/) instead of Numpy functions.
+This gives better performance and additional features such as integer bins or periodic bins.
+
+
 ## Data-assistant
 
 {{< button href="https://gitlab.in2p3.fr/biofronts/data-assistant"
@@ -57,16 +65,6 @@ A Python library to compute the Heterogeneity Index, as defined in [Haëck et al
 
 It can be viewed as an example of a complex front detection algorithm implemented in Python but still competitive thanks to Numba. It can run on numpy, dask, or xarray arrays.
 As such the project could support other front detection methods.
-
-## XArray-histogram
-
-{{< button href="https://github.com/Descanonge/xarray-histogram"
->}}<i class="fa fa-github"></i> Github{{</ button >}}
-
-I use histograms a lot as intermediary results to reduce the volume of data to analyse. I explored (a little bit) ways to construct histogram efficiently on large datasets.
-This is a tentative to use [Boost Histogram](https://boost-histogram.readthedocs.io/) and its Dask counterpart [dask-histogram](https://dask-histogram.readthedocs.io/en/stable/).
-
-I measured an increase in speed, but I am currently not sure if it scales properly with larger datasets.
 
 ## VisibleEarth Homepage
 

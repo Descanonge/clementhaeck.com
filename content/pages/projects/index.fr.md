@@ -6,8 +6,6 @@ type: docs
 
 # Projets
 
-Voici quelques projets, plus ou moins reliés à mon travail, et dont certains pourraient je l'espère vous intéresser.
-
 ## FileFinder
 
 {{< button href="https://github.com/Descanonge/filefinder"
@@ -38,6 +36,15 @@ Ci-dessous un des set de couleurs disponible ('vibrant'):
     alt="échantillon de couleurs du set dit 'vibrant'"
 >}}
 
+## Xarray-histogram
+
+{{< button href="https://github.com/Descanonge/xarray-histogram"
+>}}<i class="fa fa-github"></i> Github{{</ button >}}
+
+J'utilise fréquemment des histogrammes comme résultats intermédiaires pour réduire le volume de données à analyser.
+Ce paquet est semblable à [xhistogram](https://xhistogram.readthedocs.io/) mais utilise [Boost Histogram](https://boost-histogram.readthedocs.io/) plutôt que des fonctions Numpy.
+Cela permet de meilleures performances et des fonctionnalités supplémentaires comme des bins entiers ou périodiques.
+
 ## Data-assistant
 
 {{< button href="https://gitlab.in2p3.fr/biofronts/data-assistant"
@@ -57,17 +64,6 @@ Une bibliothèque Python pour calculer l'Heterogeneity Index -- tel que défini 
 
 On peut considérer ce projet comme un exemple d'algorithme complexe de détection de fronts, implémenté en Python mais restant compétitif grâce à Numba. Il peut fonctionner sur des tableaux numpy, dask ou xarray.
 Ce projet pourrait fournir une base à d'autres méthodes de détection de fronts, qui pourraient y être incluses.
-
-## Xarray-histogram
-
-{{< button href="https://github.com/Descanonge/xarray-histogram"
->}}<i class="fa fa-github"></i> Github{{</ button >}}
-
-J'utilise fréquemment des histogrammes comme résultats intermédiaires pour réduire le volume de données à analyser.
-J'ai un peu exploré des moyens de construire efficacement des histogrammes sur de grands ensembles de données.
-Il s'agit ici d'une tentative d'utiliser [Boost Histogram](https://boost-histogram.readthedocs.io/) et son équivalent Dask [dask-histogram](https://dask-histogram.readthedocs.io/en/stable/).
-
-J'ai constaté des calculs plus rapides qu'avec numpy ou [xhistogram](https://github.com/xgcm/xhistogram), mais je ne suis présentement pas certain si c'est toujours le cas pour des données très volumineuses.
 
 ## VisibleEarth Homepage
 
