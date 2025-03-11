@@ -40,8 +40,9 @@ For example one of the available scheme ('vibrant'):
 
 {{< button href="https://github.com/Descanonge/xarray-histogram"
 >}}<i class="fa fa-github"></i> Github{{</ button >}}
+{{< button href="https://pypi.org/project/xarray-histogram"
+>}}<i class="fa-brands fa-python"></i> PyPi{{</ button >}}
 
-I use histograms a lot as intermediary results to reduce the volume of data to analyse.
 This package is similar to the existing [xhistogram](https://xhistogram.readthedocs.io/) but at its core uses [Boost Histogram](https://boost-histogram.readthedocs.io/) instead of Numpy functions.
 This gives better performance and additional features such as integer bins or periodic bins.
 
@@ -60,6 +61,8 @@ Help jump-start a data analysis project:
 
 {{< button href="https://gitlab.in2p3.fr/biofronts/heterogeneity-index"
 >}}<i class="fa fa-gitlab"></i> Gitlab{{</ button >}}
+{{< button href="https://pypi.org/project/heterogeneity-index"
+>}}<i class="fa-brands fa-python"></i> PyPi{{</ button >}}
 
 A Python library to compute the Heterogeneity Index, as defined in [Haëck et al. (2023)](https://doi.org/10.5194/bg-20-1741-2023) and [Liu & Levine (2016)](https://doi.org/10.1002/2015gl066996), and some associated diagnostics (front detection, statistics of variable in and outside fronts).
 

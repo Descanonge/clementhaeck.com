@@ -40,8 +40,9 @@ Ci-dessous un des set de couleurs disponible ('vibrant'):
 
 {{< button href="https://github.com/Descanonge/xarray-histogram"
 >}}<i class="fa fa-github"></i> Github{{</ button >}}
+{{< button href="https://pypi.org/project/xarray-histogram"
+>}}<i class="fa-brands fa-python"></i> PyPi{{</ button >}}
 
-J'utilise fréquemment des histogrammes comme résultats intermédiaires pour réduire le volume de données à analyser.
 Ce paquet est semblable à [xhistogram](https://xhistogram.readthedocs.io/) mais utilise [Boost Histogram](https://boost-histogram.readthedocs.io/) plutôt que des fonctions Numpy.
 Cela permet de meilleures performances et des fonctionnalités supplémentaires comme des bins entiers ou périodiques.
 
@@ -59,6 +60,8 @@ Démarrez un projet d'analyse de données:
 
 {{< button href="https://gitlab.in2p3.fr/biofronts/heterogeneity-index"
 >}}<i class="fa fa-gitlab"></i> Gitlab{{</ button >}}
+{{< button href="https://pypi.org/project/heterogeneity-index"
+>}}<i class="fa-brands fa-python"></i> PyPi{{</ button >}}
 
 Une bibliothèque Python pour calculer l'Heterogeneity Index -- tel que défini dans [Haëck et al. (2023)](https://doi.org/10.5194/bg-20-1741-2023) et [Liu & Levine (2016)](https://doi.org/10.1002/2015gl066996) -- ainsi que certains diagnostics associés (détection de fronts, statistiques de variables dans et hors des fronts).
 
