@@ -128,12 +128,23 @@ categories:
     items:
       - title: Langues
         location: Français (langue de naissance), Anglais (Certification C2 du Cambridge)
-      - title: Langages de programmation
-        location: Python, Fortran, Bash, Git, Latex, C++
+      - title: Python
+        location: stack scientifique, orienté objet, environnements virtuels, packaging (PyPI, tests unitaires, documentation)
+      - title: Autres langages de programmation
+        location: Bash, Fortran, Git, Latex, C++
+      - title: Admin
+        location: familier avec les systèmes Unix et le job scheduler SLURM
+      - title: DevOps
+        location: familier avec Git and le développement continu sur Github et Gitlab 
+      - title: Web
+        location: création de sites statiques avec Jekyll et Hugo
         
   - others:
     name: Autres
     items:
+      - title: Groupe informatique LOCEAN
+        date: 2023 - Présent
+
       - title: Représentant des doctorants au 'GLEC'
         date: 2020
         location: (Groupe LOCEAN Empreinte Carbone)
@@ -148,9 +159,6 @@ categories:
           d'un quota personnel de carbone selon une trajectoire suivant l'accord de Paris,
           a été adoptée par une large majorité.
           <https://climactions.ipsl.fr/groupes-de-travail/locean-climactions/>
-          
-      - title: Groupe informatique LOCEAN
-        date: 2023 - Présent
 ---
 # CV
 

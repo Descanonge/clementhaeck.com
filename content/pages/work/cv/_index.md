@@ -113,7 +113,7 @@ categories:
       - title: Research internship
         date: 2016 (1 month)
         location: >-
-          PMMH (Physic and Mecanics of Heterogeneous Mediums) at ESPCI (École
+          PMMH (Physics and Mechanics of Heterogeneous Mediums) at ESPCI (École
           Supérieure de Physique et de Chimie Industrielles de la ville de
           Paris), Paris
         description: >-
@@ -127,12 +127,24 @@ categories:
     items:
       - title: Languages
         location: French (mother tongue), English (C2 Certification of Cambridge)
-      - title: Programming languages
-        location: Python, Fortran, Bash, Git, Latex, C++
+      - title: Python
+        location: scientific stack, OOP, virtual environments, packaging (PyPI, unit tests, documentation)
+      - title: Other programming languages
+        location: Bash, Fortran, Latex, C++
+      - title: Admin
+        location: familiar with Unix systems and the SLURM job scheduler
+      - title: DevOps
+        location: familiar with Git and CI/CD on Github and Gitlab
+      - title: Web
+        location: static website creation with Jekyll and Hugo
+
         
   - others:
     name: Others
     items:
+      - title: Groupe informatique LOCEAN
+        date: 2023 - Présent
+        
       - title: Representative of PhD students in the 'GLEC'
         date: 2020
         location: (Groupe LOCEAN Empreinte Carbone)
@@ -144,14 +156,6 @@ categories:
           Mainly, the decision to restrict travel by a personnal Carbon quota on par
           with the Paris Agreement, was adopted with a large majority.
           <https://climactions.ipsl.fr/groupes-de-travail/locean-climactions/>
-
-      - title: Groupe informatique LOCEAN
-        date: 2023 - Présent
-        
-      - title: Co-starting a shared repository for lab students
-        date: 2023
-        location: <https://github.com/Descanonge/research_support>
-          
 ---
 # CV
 
