@@ -6,6 +6,32 @@ type: docs
 
 # Projets
 
+## Tol-colors
+
+{{< button href="https://github.com/Descanonge/tol_colors"
+>}}<i class="fa fa-github"></i> Github{{</ button >}}
+{{< button href="https://pypi.org/project/tol-colors"
+>}}<i class="fa-brands fa-python"></i> PyPi{{</ button >}}
+
+Un paquet qui donne accès à des sets de couleurs pour des lignes ou des cartes, tous adaptés aux personnes daltoniennes.
+Ces jeux de couleurs ont été créés par [Paul Tol](https://personal.sron.nl/~pault/), je les ai seulement rendus accessibles sur Pypi.
+Ci-dessous le set de couleur par défaut ('bright'):
+{{< figure 
+    src="cset_bright.svg"
+    class="work-illustration"
+    alt="échantillon de couleurs du set dit bright"
+>}}
+
+## Xarray-histogram
+
+{{< button href="https://github.com/Descanonge/xarray-histogram"
+>}}<i class="fa fa-github"></i> Github{{</ button >}}
+{{< button href="https://pypi.org/project/xarray-histogram"
+>}}<i class="fa-brands fa-python"></i> PyPi{{</ button >}}
+
+Ce paquet est semblable à [xhistogram](https://xhistogram.readthedocs.io/) mais utilise [Boost Histogram](https://boost-histogram.readthedocs.io/) plutôt que des fonctions Numpy.
+Cela permet de meilleures performances et des fonctionnalités supplémentaires comme des bins entiers ou périodiques.
+
 ## FileFinder
 
 {{< button href="https://github.com/Descanonge/filefinder"
@@ -19,32 +45,6 @@ Utile pour gérer des bases de données constituées de beaucoup de fichiers, po
 finder = Finder('/root_folder/', '%(Y)/SST_%(Y)%(m)%(d)_%(depth:fmt=.1f).nc')
 files = finder.get_files()
 ```
-
-## Tol-colors
-
-{{< button href="https://github.com/Descanonge/tol_colors"
->}}<i class="fa fa-github"></i> Github{{</ button >}}
-{{< button href="https://pypi.org/project/tol-colors"
->}}<i class="fa-brands fa-python"></i> PyPi{{</ button >}}
-
-Un paquet qui donne accès à des sets de couleurs pour des lignes ou des cartes, tous adaptés aux personnes daltoniennes.
-Ces jeux de couleurs ont été créés par [Paul Tol](https://personal.sron.nl/~pault/), je les ai seulement rendus accessibles sur Pypi.
-Ci-dessous un des set de couleurs disponible ('vibrant'):
-{{< figure 
-    src="scheme_vibrant.png"
-    class="work-illustration"
-    alt="échantillon de couleurs du set dit 'vibrant'"
->}}
-
-## Xarray-histogram
-
-{{< button href="https://github.com/Descanonge/xarray-histogram"
->}}<i class="fa fa-github"></i> Github{{</ button >}}
-{{< button href="https://pypi.org/project/xarray-histogram"
->}}<i class="fa-brands fa-python"></i> PyPi{{</ button >}}
-
-Ce paquet est semblable à [xhistogram](https://xhistogram.readthedocs.io/) mais utilise [Boost Histogram](https://boost-histogram.readthedocs.io/) plutôt que des fonctions Numpy.
-Cela permet de meilleures performances et des fonctionnalités supplémentaires comme des bins entiers ou périodiques.
 
 ## Data-assistant
 
@@ -63,7 +63,7 @@ Démarrez un projet d'analyse de données:
 {{< button href="https://pypi.org/project/heterogeneity-index"
 >}}<i class="fa-brands fa-python"></i> PyPi{{</ button >}}
 
-Une bibliothèque Python pour calculer l'Heterogeneity Index -- tel que défini dans [Haëck et al. (2023)](https://doi.org/10.5194/bg-20-1741-2023) et [Liu & Levine (2016)](https://doi.org/10.1002/2015gl066996) -- ainsi que certains diagnostics associés (détection de fronts, statistiques de variables dans et hors des fronts).
+Une bibliothèque Python pour calculer l'Heterogeneity Index, tel que défini dans [Haëck et al. (2023)](https://doi.org/10.5194/bg-20-1741-2023) et [Liu & Levine (2016)](https://doi.org/10.1002/2015gl066996).
 
 On peut considérer ce projet comme un exemple d'algorithme complexe de détection de fronts, implémenté en Python mais restant compétitif grâce à Numba. Il peut fonctionner sur des tableaux numpy, dask ou xarray.
 Ce projet pourrait fournir une base à d'autres méthodes de détection de fronts, qui pourraient y être incluses.
