@@ -51,9 +51,9 @@ files = finder.get_files()
 {{< button href="https://gitlab.in2p3.fr/biofronts/data-assistant"
 >}}<i class="fa fa-gitlab"></i> Gitlab{{</ button >}}
 
-Démarrez un projet d'analyse de données:
-- Obtenez vos paramètres à partir d'un fichier de configuration ou depuis la ligne de commande. Validez-les par rapport à une définition structurée facile à rédiger, extensible, et qui permet de documenter chaque paramètre.
-- Déclarez des jeux de données de manière flexible afin de gérer des paramètres variables, de multiples fichiers, la lecture/écriture des données, etc.
+Une aide pour des projets d'analyse:
+- Obtenez vos paramètres à partir de fichiers de configuration ou depuis la ligne de commande. Validez-les par rapport à une définition structurée facile à rédiger, extensible, et qui permet de documenter chaque paramètre.
+- Déclarez des jeux de données de manière flexible afin de gérer de multiples fichiers, la lecture/écriture des données, le tout pouvant dépendre de paramètres.
 - Configurez Dask soit sur une machine locale, soit de manière distribuée sur un cluster (en utilisant dask-jobqueue).
 
 ## Heterogeneity-Index
@@ -70,10 +70,10 @@ Ce projet pourrait fournir une base à d'autres méthodes de détection de front
 
 ## VisibleEarth Homepage
 
-{{< button href="https://github.com/Descanonge/visible-earth-home"
+{{< button href="https://github.com/Descanonge/earth-observatory-homepage"
 >}}<i class="fa fa-github"></i> Github{{</ button >}}
 
-De quoi avoir comme page d'accueil la dernière image de [NASA VisibleEarth](http://visibleearth.nasa.gov) en pleine résolution.
+Une extension Firefox qui met en page d'accueil la dernière image de [NASA Earth Observatory](https://earthobservatory.nasa.gov/topic/image-of-the-day) en pleine résolution.
 
 ## Dateloop
 

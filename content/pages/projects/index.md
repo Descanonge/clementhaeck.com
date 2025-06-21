@@ -53,9 +53,9 @@ files = finder.get_files()
 {{< button href="https://gitlab.in2p3.fr/biofronts/data-assistant"
 >}}<i class="fa fa-gitlab"></i> Gitlab{{</ button >}}
 
-Help jump-start a data analysis project:
-- Obtain your parameters from a configuration file or command line arguments. Validate them against a structured specification that is easy to write, expandable, and which allows to document every parameter.
-- Declare datasets in a flexible way to manage varying parameters, multiple files, to read/write the data, etc.
+An aid for data analysis project:
+- Obtain your parameters from configuration files or command line arguments. Validate them against a structured specification that is easy to write, expandable, and which allows to document every parameter.
+- Declare datasets in a flexible way to manage multiple source files, to read and write data; while eventually depending on parameters.
 - Setup Dask either on a local machine, or distributed on a cluster (using dask-jobqueue).
 
 ## Heterogeneity-Index
@@ -72,10 +72,10 @@ As such the project could support other front detection methods.
 
 ## VisibleEarth Homepage
 
-{{< button href="https://github.com/Descanonge/visible-earth-home"
+{{< button href="https://github.com/Descanonge/earth-observatory-homepage"
 >}}<i class="fa fa-github"></i> Github{{</ button >}}
 
-Because having as a homepage the latest image from [NASA VisibleEarth](http://visibleearth.nasa.gov) in full resolution and full-screen, is really nice.
+A Firefox extension that set the homepage to the latest image from [NASA Earth Observatory](https://earthobservatory.nasa.gov/topic/image-of-the-day) in full resolution and full-screen.
 
 ## Dateloop
 
