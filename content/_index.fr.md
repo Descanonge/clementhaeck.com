@@ -8,9 +8,9 @@ weight: 10
 
 Bienvenue sur mon site !
 
-Je suis postdoc en océanographie au [LOCEAN](https://www.locean.ipsl.fr/en "Laboratoire d'Océanographie et du Climat: Expérimentations et Approches Numériques") (<a href="https://www.ipsl.fr" title="Institut Pierre-Simon Laplace">IPSL</a>), à Paris.
+Je suis ingénieur de recherche (CDD) en océanographie au [LOCEAN](https://www.locean.ipsl.fr/en "Laboratoire d'Océanographie et du Climat: Expérimentations et Approches Numériques") (<a href="https://www.ipsl.fr" title="Institut Pierre-Simon Laplace">IPSL</a>), à Paris.
 
-J'étudie l'impact des fronts de sub-mésoéchelle sur la production et la biodiversité du phytoplancton.
+J'essaie de quantifier l'impact des fronts de sub-mésoéchelle sur la production et la biodiversité du phytoplancton, avec des données satellites.
 Au delà de ces questions scientifiques, je m'intéresse particulièrement au développement de méthodologies pouvant rendre de telles études plus faciles à réaliser, à reproduire et à partager. 
 
 ## Contact
