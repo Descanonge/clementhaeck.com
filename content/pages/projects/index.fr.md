@@ -53,20 +53,17 @@ files = finder.get_files()
 
 Une aide pour des projets d'analyse:
 - Obtenez vos paramètres à partir de fichiers de configuration ou depuis la ligne de commande. Validez-les par rapport à une définition structurée facile à rédiger, extensible, et qui permet de documenter chaque paramètre.
-- Déclarez des jeux de données de manière flexible afin de gérer de multiples fichiers, la lecture/écriture des données, le tout pouvant dépendre de paramètres.
+- Déclarez des jeux de données de manière flexible afin de gérer de multiples fichiers, la lecture/écriture des données, le tout  de paramètres.
 - Configurez Dask soit sur une machine locale, soit de manière distribuée sur un cluster (en utilisant dask-jobqueue).
 
-## Heterogeneity-Index
+## Fronts-Toolbox
 
-{{< button href="https://gitlab.in2p3.fr/biofronts/heterogeneity-index"
+{{< button href="https://github.com/Descanonge/filefinder"
 >}}<i class="fa fa-gitlab"></i> Gitlab{{</ button >}}
-{{< button href="https://pypi.org/project/heterogeneity-index"
->}}<i class="fa-brands fa-python"></i> PyPi{{</ button >}}
 
-Une bibliothèque Python pour calculer l'Heterogeneity Index, tel que défini dans [Haëck et al. (2023)](https://doi.org/10.5194/bg-20-1741-2023) et [Liu & Levine (2016)](https://doi.org/10.1002/2015gl066996).
+Une collection de méthodes de détection de fronts pour Python, accélérées par Numba et disponibles pour des tableaux Numpy, Dask et Xarray.
 
-On peut considérer ce projet comme un exemple d'algorithme complexe de détection de fronts, implémenté en Python mais restant compétitif grâce à Numba. Il peut fonctionner sur des tableaux numpy, dask ou xarray.
-Ce projet pourrait fournir une base à d'autres méthodes de détection de fronts, qui pourraient y être incluses.
+Le but de ce paquet est d'offrir diverses méthodes de manière à ce qu'elles soient facilement comprises et modifiables par des chercheurs. Il offre un cadre de développement pour facilement ajouter d'autres algorithmes tout en bénéficiant de tests automatiques et d'une documentation.
 
 ## VisibleEarth Homepage
 

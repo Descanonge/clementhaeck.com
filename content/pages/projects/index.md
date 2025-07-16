@@ -58,17 +58,14 @@ An aid for data analysis project:
 - Declare datasets in a flexible way to manage multiple source files, to read and write data; while eventually depending on parameters.
 - Setup Dask either on a local machine, or distributed on a cluster (using dask-jobqueue).
 
-## Heterogeneity-Index
+## Fronts-Toolbox
 
-{{< button href="https://gitlab.in2p3.fr/biofronts/heterogeneity-index"
+{{< button href="https://github.com/Descanonge/filefinder"
 >}}<i class="fa fa-gitlab"></i> Gitlab{{</ button >}}
-{{< button href="https://pypi.org/project/heterogeneity-index"
->}}<i class="fa-brands fa-python"></i> PyPi{{</ button >}}
 
-A Python library to compute the Heterogeneity Index, as defined in [Haëck et al. (2023)](https://doi.org/10.5194/bg-20-1741-2023) and [Liu & Levine (2016)](https://doi.org/10.1002/2015gl066996).
+A collection of front-detection algorithms implemented for Python, accelerated with Numba and supporting Numpy, Dask and Xarray data.
 
-It can be viewed as an example of a complex front detection algorithm implemented in Python but still competitive thanks to Numba. It can run on numpy, dask, or xarray arrays.
-As such the project could support other front detection methods.
+The goal of this package is to offer various methods in such a way that they can be easily read and modified by researchers. It provides a common framework to easily add other algorithms, while benefiting from testing and documentation.
 
 ## VisibleEarth Homepage
 
