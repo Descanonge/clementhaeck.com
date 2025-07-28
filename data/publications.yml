@@ -18,7 +18,7 @@ authors:
     orcid: "0000-0002-6454-1645"
 
 references:
-  - id: levy_2024a
+  - id: levy_2025
     authors:
       - family: Lévy
         given: Marina
@@ -30,13 +30,16 @@ references:
         given: Angelina
       - family: El Hourany
         given: Roy
-    title: >-
-      Satellite data reveal fine-scale dissimilarities in
-      phytoplankton assemblage
-    container-title: Preprint ESS Open Archive
-    url: https://www.authorea.com/users/664528/articles/1213829-satellite-data-reveal-fine-scale-dissimilarities-in-phytoplankton-assemblage#
-    date: 2024-07
-    year: 2024
+    title: Shift in phytoplankton community composition over fronts
+    container-title: Communications Earth Environment
+    container-title-short: Commun. Earth Environ.
+    url: https://doi.org/10.1038/s43247-025-02553-1
+    DOI: 10.1038/s43247-025-02553-1
+    date: 2025-07-26
+    year: 2025
+    volume: '6'
+    issue: 1
+    pages: 591
 
   - id: haeck_2023_thesis
     authors:
