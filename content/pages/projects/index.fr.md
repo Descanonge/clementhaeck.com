@@ -29,6 +29,7 @@ Ci-dessous le set de couleur par défaut ('bright'):
 {{< button href="https://pypi.org/project/xarray-histogram"
 >}}<i class="fa-brands fa-python"></i> PyPi{{</ button >}}
 
+Permet le calcul et la manipulation d'histogrammes pour des données Xarray.
 Ce paquet est semblable à [xhistogram](https://xhistogram.readthedocs.io/) mais utilise [Boost Histogram](https://boost-histogram.readthedocs.io/) plutôt que des fonctions Numpy.
 Cela permet de meilleures performances et des fonctionnalités supplémentaires comme des bins entiers ou périodiques.
 
@@ -53,7 +54,7 @@ files = finder.get_files()
 
 Une aide pour des projets d'analyse:
 - Obtenez vos paramètres à partir de fichiers de configuration ou depuis la ligne de commande. Validez-les par rapport à une définition structurée facile à rédiger, extensible, et qui permet de documenter chaque paramètre.
-- Déclarez des jeux de données de manière flexible afin de gérer de multiples fichiers, la lecture/écriture des données, le tout  de paramètres.
+- Déclarez des jeux de données de manière flexible afin de gérer de multiples fichiers, la lecture er l'écriture des données.
 - Configurez Dask soit sur une machine locale, soit de manière distribuée sur un cluster (en utilisant dask-jobqueue).
 
 ## Fronts-Toolbox

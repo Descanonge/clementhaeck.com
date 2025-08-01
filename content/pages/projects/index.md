@@ -28,9 +28,11 @@ For example the default scheme ('bright):
 {{< button href="https://pypi.org/project/xarray-histogram"
 >}}<i class="fa-brands fa-python"></i> PyPi{{</ button >}}
 
-Compute and manipulate histograms from XArray using [Boost Histogram](https://boost-histogram.readthedocs.io/) at its core.
-This package is similar to the existing [xhistogram](https://xhistogram.readthedocs.io/) but at its core uses  instead of Numpy functions.
-This gives better performance and additional features such as integer bins or periodic bins.
+Compute and manipulate histograms from XArray data using [Boost
+Histogram](https://boost-histogram.readthedocs.io/) at its core. This package is
+similar to the existing [xhistogram](https://xhistogram.readthedocs.io/) but
+gives better performance and additional features such as integer bins or
+periodic bins.
 
 
 ## FileFinder
