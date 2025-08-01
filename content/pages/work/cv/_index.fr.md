@@ -142,8 +142,14 @@ categories:
   - others:
     name: Autres
     items:
-      - title: Groupe informatique LOCEAN
+      - title: Représentant des jeunes chercheurs au Groupe informatique
         date: 2023 - Présent
+        location: (LOCEAN)
+        description: >-
+          Groupe de travail gérant le matériel et les services informatiques du
+          laboratoire: gestion des machines personnelles, des machines de calcul,
+          stockage et sauvegarde des données, documentation et support utilisateur, etc.
+
 
       - title: Représentant des doctorants au 'GLEC'
         date: 2020

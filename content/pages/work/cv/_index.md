@@ -142,8 +142,13 @@ categories:
   - others:
     name: Others
     items:
-      - title: Groupe informatique LOCEAN
-        date: 2023 - Présent
+      - title: Representative of junior researchers in 'Groupe informatique'
+        date: 2023 - Current
+        location: (LOCEAN)
+        description: >-
+          Working group managing the laboratory's IT equipment and services:
+          management of personal computers, computing machines, data storage and backup,
+          documentation and user support, etc.
         
       - title: Representative of PhD students in the 'GLEC'
         date: 2020
