@@ -2,7 +2,7 @@
 title: CV
 type: docs
 categories:
-  - experience:
+  - key: experience
     name: Experience
 
     items:
@@ -26,7 +26,7 @@ categories:
           I studied from satellite imagery the impact of oceanic fronts on phytoplankton in the Gulf
           Stream region.
 
-  - education:
+  - key: education
     name: Education
 
     items:
@@ -38,7 +38,7 @@ categories:
         date: 2016
         location: École Normale Supérieure Paris-Saclay
 
-  - conferences:
+  - key: conferences
     name: Conferences
 
     items:
@@ -62,7 +62,7 @@ categories:
         location: Short presentation
         url: "https://lapcod.rsmas.miami.edu/2019-Venice/index.php?page=home"
 
-  - enseignement:
+  - key: enseignement
     name: Teaching
     items:
       - title: Numerical Physics - Projects
@@ -77,7 +77,7 @@ categories:
         description: >-
           Introductory course to numerical physics in C++, at BoS level (L3). I gave lessons and supervised TD, TP and projects (60h).
 
-  - internships:
+  - key: internships
     name: Internships
 
     items:
@@ -122,7 +122,7 @@ categories:
           underwater under acceleration to put in evidence morphologic
           differences between species
 
-  - skills:
+  - key: skills
     name: Skills
     items:
       - title: Languages
@@ -139,7 +139,7 @@ categories:
         location: static website creation with Jekyll and Hugo
 
         
-  - others:
+  - key: others
     name: Others
     items:
       - title: Representative of junior researchers in 'Groupe informatique'

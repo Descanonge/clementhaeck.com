@@ -2,7 +2,7 @@
 title: CV
 type: docs
 categories:
-  - experience:
+  - key: experience
     name: Experience
 
     items:
@@ -27,7 +27,7 @@ categories:
           j'ai étudié par imagerie satellitaire l'impact des fronts océaniques sur
           le phytoplancton dans la région du Gulf Stream.
 
-  - education:
+  - key: education
     name: Éducation
 
     items:
@@ -39,7 +39,7 @@ categories:
           date: 2016
           location: École Normale Supérieure Paris-Saclay
 
-  - conferences:
+  - key: conferences
     name: Conférences
 
     items:
@@ -63,7 +63,7 @@ categories:
           location: Présentation courte
           url: "https://lapcod.rsmas.miami.edu/2019-Venice/index.php?page=home"
 
-  - enseignement:
+  - key: enseignement
     name: Enseignement
     items:
       - title: Physique Numérique - Projets (L3)
@@ -79,7 +79,7 @@ categories:
             Cours d'introduction à la physique numérique en C++, niveau L3. J'ai
             dispensé des cours, et encadré des TD, TP et projets (60h en tout).
 
-  - internships:
+  - key: internships
     name: Stages
     items:
       - title: Stage de recherche (M2)
@@ -123,7 +123,7 @@ categories:
             têtes de serpents afin de mettre en évidence des différences
             morphologiques entre différentes espèces
 
-  - skills:
+  - key: skills
     name: Compétences
     items:
       - title: Langues
@@ -139,7 +139,7 @@ categories:
       - title: Web
         location: création de sites statiques avec Jekyll et Hugo
         
-  - others:
+  - key: others
     name: Autres
     items:
       - title: Représentant des jeunes chercheurs au Groupe informatique
