@@ -41,6 +41,7 @@ categories:
 
   - key: conferences
     name: Conférences
+    materials: "Les diapositives sont disponible [ici](https://cloud.ipsl.fr/index.php/s/93Nd4BHCTSYCCyY), même si la présentation n'est pas listé ci-dessous"
 
     items:
         - title: Filachange Workshop

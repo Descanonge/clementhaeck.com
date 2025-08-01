@@ -2,6 +2,10 @@
 
 ## {{ $category.name }}
 
+{{ with .materials }}
+{{ . | $.Page.RenderString }}
+{{ end }}
+
 <div class="cv-category cv-category{{ add 1 (mod $categoryIdx 3) }}">
 <ul>
 {{ range $category.items }}

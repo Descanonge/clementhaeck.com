@@ -13,6 +13,12 @@ Je suis ingénieur de recherche (CDD) en océanographie au [LOCEAN](https://www.
 J'essaie de quantifier l'impact des fronts de sub-mésoéchelle sur la production et la biodiversité du phytoplancton, avec des données satellites.
 Au delà de ces questions scientifiques, je m'intéresse particulièrement au développement de méthodologies pouvant rendre de telles études plus faciles à réaliser, à reproduire et à partager. 
 
+
+## Supports Présentations
+
+La plupart de mes supports de présentation sont disponibles [ici](https://cloud.ipsl.fr/index.php/s/93Nd4BHCTSYCCyY).
+
+
 ## Contact
 
 Vous pouvez me retrouver:

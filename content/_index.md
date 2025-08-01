@@ -12,6 +12,10 @@ I am a research engineer in oceanography at the [LOCEAN](https://www.locean.ipsl
 I work on quantifying the impact of sub-mesoscale fronts on the productivity and biodiversity of phytoplankton, using satellite data.
 Beyond this, I am particularly interested in developing the methodology to make such studies easier to conduct, to replicate and to share.
 
+## Presentation materials
+
+Most of my presentation materials are available [here](https://cloud.ipsl.fr/index.php/s/93Nd4BHCTSYCCyY).
+
 ## Contact
 
 You can contact me:

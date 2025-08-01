@@ -40,6 +40,7 @@ categories:
 
   - key: conferences
     name: Conferences
+    materials: "Presentation materials are available [here](https://cloud.ipsl.fr/index.php/s/93Nd4BHCTSYCCyY), even if not listed below"
 
     items:
       - title: Filachange Workshop
