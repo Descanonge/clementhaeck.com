@@ -6,8 +6,8 @@ categories:
     name: Experience
 
     items:
-      - title: Postdoc - Research Engineer
-        date: 2023 - 2025
+      - title: Research Engineer (Fixed term contract)
+        date: 2023 - Current
         location: >-
           Laboratoire d'Océanographie et du Climat:
             Expérimentations et Approches Numériques (LOCEAN), Paris

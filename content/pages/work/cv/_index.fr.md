@@ -6,8 +6,8 @@ categories:
     name: Experience
 
     items:
-      - title: Postdoc - Ingénieur de recherche
-        date: 2023 - 2025
+      - title: Ingénieur de recherche (CDD)
+        date: 2023 - Présent
         location: >-
           Laboratoire d'Océanographie et du Climat:
             Expérimentations et Approches Numériques (LOCEAN), Paris
