@@ -54,7 +54,7 @@ Several avenues of study permitted by the novel 4DMED data are being considered:
 
 The codes used for these studies are publicly available (<a  href="https://gitlab.in2p3.fr/clementhaeck/submeso-color">gitlab.in2p3.fr/clementhaeck/submeso-color</a>), and I am currently working to make them more accessible and easily reusable, thanks to two auxiliary projects: <a href="{{< relref "/pages/projects#heterogeneity-index" >}}">heterogeneity-index</a> and <a href="{{< relref "/pages/projects#data-assistant" >}}">data-assistant</a>. Their application at a global scale is in development at <a  href="https://gitlab.in2p3.fr/biofronts/submeso-color">gitlab.in2p3.fr/biofronts/submeso-color</a>
 
-I have also started compiling front-detection methods in a single Python package: https://github.com/Descanonge/fronts-toolbox.
+I have also started compiling front-detection methods in a single Python package: [fronts-toolbox](https://github.com/Descanonge/fronts-toolbox).
 
 [^1]: Haëck C., Lévy M., Mangolte I., Bopp L.
     “Satellite Data Reveal Earlier and Stronger Phytoplankton Blooms over Fronts in the Gulf Stream Region”.
