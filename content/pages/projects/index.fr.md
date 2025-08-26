@@ -1,6 +1,5 @@
 ---
 title: Projets
-slug: projets
 type: docs
 ---
 

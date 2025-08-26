@@ -10,7 +10,7 @@
 
     {{ $years := slice }}
     {{ range $bib }}
-    {{ $years = $years | append .year }}
+      {{ $years = $years | append .year }}
     {{ end }}
     {{ $years := $years | uniq }}
     {{ $years := sort $years "value" "desc" }}
@@ -27,12 +27,12 @@
                 {{ $authorID := anchorize (printf "%s-%s" $author.family $author.given) }}
                 {{ $authorRef := index $authorsRef $authorID }}
                 {{ if isset $authorRef "orcid" }}
-                    {{ $authorName = add $authorName (printf "<sup><a title=\"ORCID\" href=\"https://orcid.org/%s\" class=\"bib-orcid\">o</a></sup>" $authorRef.orcid) }}
+                  {{ $authorName = add $authorName (printf "<sup><a title=\"ORCID\" href=\"https://orcid.org/%s\" class=\"bib-orcid\">o</a></sup>" $authorRef.orcid) }}
                 {{ end }}
                 {{ $authorsList = $authorsList | append $authorName }}
             {{ end }}
             <span class="bib-authors">
-                {{ delimit $authorsList ", " (printf " %s " (i18n "and")) }}
+            {{ delimit $authorsList ", " (printf " %s " (i18n "and")) | markdownify }}
             </span>
             —
             <span class="bib-title">“{{ .title }}”</span>,
