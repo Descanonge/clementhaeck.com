@@ -69,12 +69,14 @@ A collection of front-detection algorithms implemented for Python, accelerated w
 
 The goal of this package is to offer various methods in such a way that they can be easily read and modified by researchers. It provides a common framework to easily add other algorithms, while benefiting from testing and documentation.
 
-## VisibleEarth Homepage
+## Earth Observatory Homepage
 
 {{< button href="https://github.com/Descanonge/earth-observatory-homepage"
 >}}<i class="fa fa-github"></i> Github{{</ button >}}
+{{< button href="https://addons.mozilla.org/en-US/firefox/addon/visibleearthhomepage/"
+>}}<i class="fa fa-firefox"></i> Addon{{</ button >}}
 
-A Firefox extension that set the homepage to the latest image from [NASA Earth Observatory](https://earthobservatory.nasa.gov/topic/image-of-the-day) in full resolution and full-screen.
+A Firefox add-on that sets the homepage to the latest image from [NASA Earth Observatory](https://earthobservatory.nasa.gov/topic/image-of-the-day) in full resolution and full-screen.
 
 ## Dateloop
 

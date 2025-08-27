@@ -65,10 +65,12 @@ Une collection de méthodes de détection de fronts pour Python, accélérées p
 
 Le but de ce paquet est d'offrir diverses méthodes de manière à ce qu'elles soient facilement comprises et modifiables par des chercheurs. Il offre un cadre de développement pour facilement ajouter d'autres algorithmes tout en bénéficiant de tests automatiques et d'une documentation.
 
-## VisibleEarth Homepage
+## Earth Observatory Homepage
 
 {{< button href="https://github.com/Descanonge/earth-observatory-homepage"
 >}}<i class="fa fa-github"></i> Github{{</ button >}}
+{{< button href="https://addons.mozilla.org/en-US/firefox/addon/visibleearthhomepage/"
+>}}<i class="fa fa-firefox"></i> Addon{{</ button >}}
 
 Une extension Firefox qui met en page d'accueil la dernière image de [NASA Earth Observatory](https://earthobservatory.nasa.gov/topic/image-of-the-day) en pleine résolution.
 
