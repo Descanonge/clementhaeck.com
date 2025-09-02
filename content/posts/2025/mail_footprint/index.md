@@ -1,7 +1,7 @@
 ---
 title: Reducing my email footprint
 type: posts
-date: 2025-08-26
+date: 2025-09-02
 tags: ['email', 'footprint', 'workflow']
 ---
 
@@ -27,12 +27,12 @@ I also use [afew](https://github.com/afewmail/afew) to tag incoming emails, [mbs
 All emails arrive in the inbox, which I try to keep as empty as possible. They are automatically tagged with afew, but I rarely use tags to find emails so I don't trouble myself too much to refine them manually.
 Once read I can take several actions:
 * do nothing: the email stays in the inbox which indicates that some action must still be taken. Ideally you may rather want to add that action to a TODO list or something, but well 🤷
-* delete it: the email is rubbish and can go directly into the trash. It won't show up in my searches and will be gone when the trash is emptied
-* mark it as *temporary*: it will be gone from the inbox, will still show up in searches, but will be transferred to the trash after a delay of 3 months. A lot of my emails are useful but I know I won't want to keep them long term. This saves me the trouble to clean up later.
-* remove from inbox: unless further action that email will be kept forever.
+* delete it: the email is rubbish and can go directly into the trash (*ie* the trash folder on the mail server). It won't show up in my searches and will be gone when the trash is emptied
+* mark it as *temporary*: it will be gone from the inbox and will still show up in searches, but will be transferred to the trash after a delay of 3 months. A lot of my emails are useful but I know I won't want to keep them long term. This saves me the trouble to clean up later.
+* remove it from inbox: unless further action that email will be kept forever.
 
-After a delay of 6 months upon reception, emails that are not in the inbox or not flagged are archived: they are copied into a local folder on my computer and removed from the server.
-That archive folder is still managed by notmuch, so this makes not difference: it will still show up on my searches as if nothing happened.
+After a delay of 6 months upon reception, emails that are not in the inbox and not starred are archived: they are copied into a local folder on my computer and removed from the server.
+That archive folder is still managed by notmuch, so this makes not difference to me: it will still show up on my searches as if nothing happened.
 Of course the delay of 6 months is quite arbitrary. It could be shorter but it can be useful to have access to recent emails from another client (my phone for instance).
 
 {{< figure
@@ -46,7 +46,7 @@ Of course the delay of 6 months is quite arbitrary. It could be shorter but it c
 # Making it work
 
 Deleted emails are tagged with `deleted` and temporary emails with `temp`.
-There is a single synchronized folder named *locean*, saved yearly in the *archive* folder. This works with more than one folder, for multiple accounts for instance.
+There is a single synchronized folder named *locean*, saved yearly in the *archive* folder. This could work with more than one folder, for multiple accounts for instance.
 
 ```goat {height=170}
 mail
@@ -75,7 +75,7 @@ archive_time="6months"
 delete_time="1months"
 ```
 
-I tag the new messages with afew, I won't detail it since it has no incidence on our workflow:
+I tag the new messages with afew, I won't detail it here since it has no incidence on our workflow:
 ``` bash
 afew_exe="$MAMBA_ROOT_PREFIX/envs/default/bin/afew"
 
