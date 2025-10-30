@@ -1,0 +1,7 @@
+<span class="tooltip-wrap">
+    <span class="tooltip-content" style="width:{{ $.Get "width" }}">
+        {{ .Inner | .Page.RenderString }}
+    </span>
+    {{ $.Get "text" -}}
+</span>
+{{- "" -}}
