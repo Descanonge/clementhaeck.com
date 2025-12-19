@@ -34,6 +34,14 @@ similar to the existing [xhistogram](https://xhistogram.readthedocs.io/) but
 gives better performance and additional features such as integer bins or
 periodic bins.
 
+## Fronts-Toolbox
+
+{{< button href="https://github.com/Descanonge/filefinder"
+>}}<i class="fa fa-gitlab"></i> Gitlab{{</ button >}}
+
+A collection of front-detection algorithms implemented for Python, accelerated with Numba and supporting Numpy, Dask and Xarray data.
+
+The goal of this package is to offer various methods in such a way that they can be easily read and modified by researchers. It provides a common framework to easily add other algorithms, while benefiting from testing and documentation.
 
 ## FileFinder
 
@@ -59,15 +67,6 @@ An aid for data analysis project:
 - Obtain your parameters from configuration files or command line arguments. Validate them against a structured specification that is easy to write, expandable, and which allows to document every parameter.
 - Declare datasets in a flexible way to manage multiple source files, to read and write data; while eventually depending on parameters.
 - Setup Dask either on a local machine, or distributed on a cluster (using dask-jobqueue).
-
-## Fronts-Toolbox
-
-{{< button href="https://github.com/Descanonge/filefinder"
->}}<i class="fa fa-gitlab"></i> Gitlab{{</ button >}}
-
-A collection of front-detection algorithms implemented for Python, accelerated with Numba and supporting Numpy, Dask and Xarray data.
-
-The goal of this package is to offer various methods in such a way that they can be easily read and modified by researchers. It provides a common framework to easily add other algorithms, while benefiting from testing and documentation.
 
 ## Earth Observatory Homepage
 

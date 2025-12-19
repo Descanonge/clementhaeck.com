@@ -32,6 +32,15 @@ Permet le calcul et la manipulation d'histogrammes pour des données Xarray.
 Ce paquet est semblable à [xhistogram](https://xhistogram.readthedocs.io/) mais utilise [Boost Histogram](https://boost-histogram.readthedocs.io/) plutôt que des fonctions Numpy.
 Cela permet de meilleures performances et des fonctionnalités supplémentaires comme des bins entiers ou périodiques.
 
+## Fronts-Toolbox
+
+{{< button href="https://github.com/Descanonge/filefinder"
+>}}<i class="fa fa-gitlab"></i> Gitlab{{</ button >}}
+
+Une collection de méthodes de détection de fronts pour Python, accélérées par Numba et disponibles pour des tableaux Numpy, Dask et Xarray.
+
+Le but de ce paquet est d'offrir diverses méthodes de manière à ce qu'elles soient facilement comprises et modifiables par des chercheurs. Il offre un cadre de développement pour facilement ajouter d'autres algorithmes tout en bénéficiant de tests automatiques et d'une documentation.
+
 ## FileFinder
 
 {{< button href="https://github.com/Descanonge/filefinder"
@@ -55,15 +64,6 @@ Une aide pour des projets d'analyse:
 - Obtenez vos paramètres à partir de fichiers de configuration ou depuis la ligne de commande. Validez-les par rapport à une définition structurée facile à rédiger, extensible, et qui permet de documenter chaque paramètre.
 - Déclarez des jeux de données de manière flexible afin de gérer de multiples fichiers, la lecture er l'écriture des données.
 - Configurez Dask soit sur une machine locale, soit de manière distribuée sur un cluster (en utilisant dask-jobqueue).
-
-## Fronts-Toolbox
-
-{{< button href="https://github.com/Descanonge/filefinder"
->}}<i class="fa fa-gitlab"></i> Gitlab{{</ button >}}
-
-Une collection de méthodes de détection de fronts pour Python, accélérées par Numba et disponibles pour des tableaux Numpy, Dask et Xarray.
-
-Le but de ce paquet est d'offrir diverses méthodes de manière à ce qu'elles soient facilement comprises et modifiables par des chercheurs. Il offre un cadre de développement pour facilement ajouter d'autres algorithmes tout en bénéficiant de tests automatiques et d'une documentation.
 
 ## Earth Observatory Homepage
 
