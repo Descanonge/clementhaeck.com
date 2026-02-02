@@ -1,0 +1,53 @@
+<figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
+  {{- $u1 := urls.Parse (.Get "src1") -}}
+  {{- $src1 := $u1.String -}}
+  {{- if not $u1.IsAbs -}}
+    {{- with or (.Page.Resources.Get $u1.Path) (resources.Get $u1.Path) -}}
+      {{- $src1 = .RelPermalink -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- $u2 := urls.Parse (.Get "src2") -}}
+  {{- $src2 := $u2.String -}}
+  {{- if not $u2.IsAbs -}}
+    {{- with or (.Page.Resources.Get $u2.Path) (resources.Get $u2.Path) -}}
+      {{- $src2 = .RelPermalink -}}
+    {{- end -}}
+  {{- end -}}
+
+  <container class="double-figure">
+    <item>
+    <a href="{{ $src1 }}" target="_blank">
+    <img src="{{ $src1 }}"
+        {{- if or (.Get "alt1") (.Get "caption") }}
+        alt="{{ with .Get "alt1" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
+        {{- end -}}
+        {{- with .Get "loading" }} loading="{{ . }}"{{ end -}}
+    ></a>
+    </item>
+    <item>
+    <a href="{{ $src2 }}" target="_blank">
+    <img src="{{ $src2 }}"
+        {{- if or (.Get "alt2") (.Get "caption") }}
+        alt="{{ with .Get "alt2" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
+        {{- end -}}
+        {{- with .Get "loading" }} loading="{{ . }}"{{ end -}}
+    ></a>
+    </item>
+  </container>
+  {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
+    <figcaption>
+      {{ with (.Get "title") -}}
+        <h4>{{ . }}</h4>
+      {{- end -}}
+      {{- if or (.Get "caption") (.Get "attr") -}}<p>
+        {{- .Get "caption" | markdownify -}}
+        {{- with .Get "attrlink" }}
+            <a href="{{ . }}">
+                {{- end -}}
+                {{- .Get "attr" | markdownify -}}
+                {{- if .Get "attrlink" }}</a>{{ end }}</p>
+            {{- end }}
+    </figcaption>
+    {{- end }}
+</figure>

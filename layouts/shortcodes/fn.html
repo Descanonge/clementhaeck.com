@@ -1,0 +1,6 @@
+{{- $n := default 0 (.Page.Store.Get "ifootnote") -}}
+{{- $letter:= printf "%c" (add $n 97)}}
+{{- .Page.Store.Set "ifootnote" (add $n 1) -}}
+{{- .Page.Store.Add "footnotes" (slice .Inner) -}}
+<sup id="fnref:{{ $letter }}"><a class="foonote-ref" href="#fn:{{ $letter }}" role="doc-noteref">{{- $letter -}}</a></sup>
+{{- "" -}}

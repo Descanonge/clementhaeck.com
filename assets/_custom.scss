@@ -159,3 +159,28 @@ figcaption {
 .tooltip-wrap:hover .tooltip-content {
   display: block;
 }
+
+.double-figure {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    item {
+        width: 49%;
+    }
+
+}
+
+.figure-grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    row-gap: 10px;
+
+    img {
+        width: 49%;
+    }
+}

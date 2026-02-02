@@ -1,0 +1,13 @@
+<div class="footnotes">
+    <hr>
+    <ol style="list-style-type:lower-alpha;">
+        {{- range $i, $content := (.Page.Store.Get "footnotes") -}}
+        {{- $letter := printf "%c" (add $i 97) -}}
+        <li id="fn:{{- $letter -}}">
+            {{- $content | $.Page.RenderString -}}
+            <a class="footnote-backref" href="#fnref:{{ $letter }}" role="doc-backlink"> ↩︎</a>
+        </li>
+        {{ end }}
+
+    </ol>
+</div>
