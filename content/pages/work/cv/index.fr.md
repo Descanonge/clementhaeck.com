@@ -7,7 +7,7 @@ categories:
 
     items:
       - title: Ingénieur de recherche (CDD)
-        date: 2023 - Présent
+        date: 2023 - 2025
         location: >-
           Laboratoire d'Océanographie et du Climat:
             Expérimentations et Approches Numériques (LOCEAN), Paris
@@ -144,7 +144,7 @@ categories:
     name: Autres
     items:
       - title: Représentant des jeunes chercheurs au Groupe informatique
-        date: 2023 - Présent
+        date: 2023 - 2025
         location: (LOCEAN)
         description: >-
           Groupe de travail gérant le matériel et les services informatiques du

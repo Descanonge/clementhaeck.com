@@ -35,9 +35,9 @@ Enfin, nous avons pu mesurer un début de bloom plus précoce dans les fronts, d
 
 Ces résultats sont présentés dans l'article: ["Satellite data reveal earlier and stronger phytoplankton blooms over fronts in the Gulf Stream region"](https://doi.org/10.5194/bg-20-1741-2023), ainsi que dans mon [manuscrit de thèse](https://theses.hal.science/tel-04249198).
 
-## En ce moment...
+## Approfondissement
 
-Je continue à travailler sur la méthodologie mise en place.
+Dans les deux années suivant ma thèse, j'ai travaillé à approfondir la méthodologie mise en place.
 Nous l'avons depuis appliqué à des données sur la composition du phytoplancton, générées par Roy El Hourany[^3].
 Nous avons constaté un décalage de la population vers davantage de diatomées et moins de procaryotes au niveau des fronts, tandis que le changement pour les autres groupes eucaryotes varie[^4].
 Cette évolution représente jusqu'à la moitié de la différence à grande échelle entre les communautés, soulignant l'influence considérable des fronts sur la composition des communautés phytoplanctoniques.
@@ -54,9 +54,9 @@ Elle a également été appliquée dans la zone du courant Californien[^5], dans
 Dans le cadre du projet [4DMED-Sea](http://ricerca.ismar.cnr.it/4DMED/Phyto_c1.html#), cette méthodologie est appliquée à la mer mediterranée.
 Plusieurs pistes d'études permises par les données novatrices du projet sont également considérées: effet des fronts en profondeur, comparaison des fronts thermiques, dynamiques, et de densité...
 
-Les codes utilisés pour ces études sont déjà disponibles publiquement (<a  href="https://gitlab.in2p3.fr/clementhaeck/submeso-color">gitlab.in2p3.fr/clementhaeck/submeso-color</a>), et je travaille à les rendre plus accessibles et plus facilement réutilisables grâce à deux projets: <a href="{{< relref "/pages/projects#heterogeneity-index" >}}">heterogeneity-index</a> et <a href="{{< relref "/pages/projects#data-assistant" >}}">data-assistant</a>. L'application à l'échelle globale est en développement à <a  href="https://gitlab.in2p3.fr/biofronts/submeso-color">gitlab.in2p3.fr/biofronts/submeso-color</a>.
+Les codes utilisés pour ces études sont déjà disponibles publiquement (<a  href="https://gitlab.in2p3.fr/clementhaeck/submeso-color">gitlab.in2p3.fr/clementhaeck/submeso-color</a>), et je travaille à les rendre plus accessibles et plus facilement réutilisables grâce au projet <a href="{{< relref "/pages/projects#data-assistant" >}}">data-assistant</a>. L'application à l'échelle globale est en développement à <a  href="https://gitlab.in2p3.fr/biofronts/submeso-color">gitlab.in2p3.fr/biofronts/submeso-color</a>.
 
-J'ai également commencé à compiler des méthodes de détections de fronts dans un même paquet Python: [fronts-toolbox](https://github.com/Descanonge/fronts-toolbox).
+J'ai également compilé différentes méthodes de détections de fronts dans un même paquet Python: [fronts-toolbox](https://github.com/Descanonge/fronts-toolbox).
 
 [^1]: Haëck C., Lévy M., Mangolte I., Bopp L.
     “Satellite Data Reveal Earlier and Stronger Phytoplankton Blooms over Fronts in the Gulf Stream Region”.

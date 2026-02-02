@@ -7,7 +7,7 @@ categories:
 
     items:
       - title: Research Engineer (Fixed term contract)
-        date: 2023 - Current
+        date: 2023 - 2025
         location: >-
           Laboratoire d'Océanographie et du Climat:
             Expérimentations et Approches Numériques (LOCEAN), Paris
@@ -144,7 +144,7 @@ categories:
     name: Others
     items:
       - title: Representative of junior researchers in 'Groupe informatique'
-        date: 2023 - Current
+        date: 2023 - 2025
         location: (LOCEAN)
         description: >-
           Working group managing the laboratory's IT equipment and services:
