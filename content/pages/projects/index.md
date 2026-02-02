@@ -66,7 +66,6 @@ files = finder.get_files()
 An aid for data analysis project:
 - Obtain your parameters from configuration files or command line arguments. Validate them against a structured specification that is easy to write, expandable, and which allows to document every parameter.
 - Declare datasets in a flexible way to manage multiple source files, to read and write data; while eventually depending on parameters.
-- Setup Dask either on a local machine, or distributed on a cluster (using dask-jobqueue).
 
 ## Earth Observatory Homepage
 

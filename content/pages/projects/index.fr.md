@@ -63,7 +63,6 @@ files = finder.get_files()
 Une aide pour des projets d'analyse:
 - Obtenez vos paramètres à partir de fichiers de configuration ou depuis la ligne de commande. Validez-les par rapport à une définition structurée facile à rédiger, extensible, et qui permet de documenter chaque paramètre.
 - Déclarez des jeux de données de manière flexible afin de gérer de multiples fichiers, la lecture er l'écriture des données.
-- Configurez Dask soit sur une machine locale, soit de manière distribuée sur un cluster (en utilisant dask-jobqueue).
 
 ## Earth Observatory Homepage
 
