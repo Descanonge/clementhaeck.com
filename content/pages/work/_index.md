@@ -52,7 +52,7 @@ It has also been applied in the California Current region[^5], with the aim (amo
 As part of the [4DMED-Sea](http://ricerca.ismar.cnr.it/4DMED/Phyto_c1.html#) project, this methodology is being applied to the mediterranean sea.
 Several avenues of study permitted by the novel 4DMED data are being considered: effect of fronts at depth, comparison of thermal, dynamical, and density fronts,...
 
-The codes used for these studies are publicly available (<a  href="https://gitlab.in2p3.fr/clementhaeck/submeso-color">gitlab.in2p3.fr/clementhaeck/submeso-color</a>), and I am currently working to make them more accessible and easily reusable, thanks to the auxiliary project <a href="{{< relref "/pages/projects#data-assistant" >}}">data-assistant</a>. The application at a global scale is in development at <a  href="https://gitlab.in2p3.fr/biofronts/submeso-color">gitlab.in2p3.fr/biofronts/submeso-color</a>
+The codes used for these studies are publicly available (<a  href="https://gitlab.in2p3.fr/clementhaeck/submeso-color">gitlab.in2p3.fr/clementhaeck/submeso-color</a>), and I am currently working to make them more accessible and easily reusable, thanks to the auxiliary project <a href="{{< relref "/pages/projects#neba" >}}">Neba</a>. The application at a global scale is in development at <a  href="https://gitlab.in2p3.fr/biofronts/submeso-color">gitlab.in2p3.fr/biofronts/submeso-color</a>
 
 I have compiled a number of front-detection methods in a single Python package: [fronts-toolbox](https://github.com/Descanonge/fronts-toolbox).
 

@@ -55,14 +55,16 @@ finder = Finder('/root_folder/', '%(Y)/SST_%(Y)%(m)%(d)_%(depth:fmt=.1f).nc')
 files = finder.get_files()
 ```
 
-## Data-assistant
+## Neba
 
-{{< button href="https://gitlab.in2p3.fr/biofronts/data-assistant"
->}}<i class="fa fa-gitlab"></i> Gitlab{{</ button >}}
+{{< button href="https://github.com/Descanonge/neba"
+>}}<i class="fa fa-github"></i> Github{{</ button >}}
+{{< button href="https://pypi.org/project/neba"
+>}}<i class="fa-brands fa-python"></i> PyPi{{</ button >}}
 
 Une aide pour des projets d'analyse:
 - Obtenez vos paramètres à partir de fichiers de configuration ou depuis la ligne de commande. Validez-les par rapport à une définition structurée facile à rédiger, extensible, et qui permet de documenter chaque paramètre.
-- Déclarez des jeux de données de manière flexible afin de gérer de multiples fichiers, la lecture er l'écriture des données.
+- Déclarez des jeux de données de manière flexible afin de gérer de multiples fichiers, ainsi que la lecture et l'écriture des données.
 
 ## Earth Observatory Homepage
 

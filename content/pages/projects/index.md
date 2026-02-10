@@ -58,14 +58,16 @@ finder = Finder('/root_folder/', '%(Y)/SST_%(Y)%(m)%(d)_%(depth:fmt=.1f).nc')
 files = finder.get_files()
 ```
 
-## Data-assistant
+## Neba
 
-{{< button href="https://gitlab.in2p3.fr/biofronts/data-assistant"
->}}<i class="fa fa-gitlab"></i> Gitlab{{</ button >}}
+{{< button href="https://github.com/Descanonge/neba"
+>}}<i class="fa fa-github"></i> Github{{</ button >}}
+{{< button href="https://pypi.org/project/neba"
+>}}<i class="fa-brands fa-python"></i> PyPi{{</ button >}}
 
 An aid for data analysis project:
 - Obtain your parameters from configuration files or command line arguments. Validate them against a structured specification that is easy to write, expandable, and which allows to document every parameter.
-- Declare datasets in a flexible way to manage multiple source files, to read and write data; while eventually depending on parameters.
+- Declare datasets in a flexible way to manage multiple source files and to read and write data easily.
 
 ## Earth Observatory Homepage
 
